@@ -1,0 +1,2052 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+                              lib/Display.o (operator delete(void*))
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+                              lib/Display.o (__cxa_guard_acquire)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o) (abort)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+                              lib/driver/SSD1305.o (malloc)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+                              lib/Display.o (memcpy)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o) (_free_r)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o) (_malloc_r)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o) (raise)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o) (_kill_r)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o) (errno)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o) (_getpid)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o) (_kill)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o) (_sbrk)
+c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+ .text          0x00000000       0x74 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/startup_sam3xa.o
+ .text          0x00000000        0x0 cmsis/src/startup_sam3xa.o
+ .data          0x00000000        0x0 cmsis/src/startup_sam3xa.o
+ .bss           0x00000000        0x0 cmsis/src/startup_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 cmsis/src/system_sam3xa.o
+ .text          0x00000000        0x0 cmsis/src/system_sam3xa.o
+ .data          0x00000000        0x0 cmsis/src/system_sam3xa.o
+ .bss           0x00000000        0x0 cmsis/src/system_sam3xa.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xd0 cmsis/src/system_sam3xa.o
+ .text.system_init_flash
+                0x00000000       0x54 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x86e cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x16 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x44 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x209 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x20 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x3a cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x2d cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0xbb1 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0xa7d cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x55a cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x1a8 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x30b cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x709 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0xd6 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x56c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x1c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x678 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x51e cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0xbe cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000     0x2333 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x7d1 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0xdbb cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x9a cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x29c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x58 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x999 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x22d cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x4b4 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x64a cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x590 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x46 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x33f cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x27e cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000     0x14dc cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x7cf cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x76 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x82 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x76 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x4c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x100 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x100 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x100 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x88 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x88 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x3b4 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0xbe cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0xbe cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0xbe cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0xbe cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x2b8 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x118 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x216 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x216 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x2e cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0xac cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x13e cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x7c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x1f6 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x64 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0xa6 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x7c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x16 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x22 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x22 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x10c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x10c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x10c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x10c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x1c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x2e cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x22 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x1c cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x58 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000       0x10 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x27a cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0xd34 cmsis/src/system_sam3xa.o
+ .debug_macro   0x00000000      0x170 cmsis/src/system_sam3xa.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .group         0x00000000        0x8 DueRev1.o
+ .text          0x00000000        0x0 DueRev1.o
+ .data          0x00000000        0x0 DueRev1.o
+ .bss           0x00000000        0x0 DueRev1.o
+ .text._Z11setupTimer0lPFvvE
+                0x00000000       0x38 DueRev1.o
+ .text._Z15pinEnablePullup4Porti
+                0x00000000       0x48 DueRev1.o
+ .text._Z18pinGetOutputStatus4Porti
+                0x00000000       0x3c DueRev1.o
+ .debug_macro   0x00000000       0x16 DueRev1.o
+ .debug_macro   0x00000000       0x44 DueRev1.o
+ .debug_macro   0x00000000      0x209 DueRev1.o
+ .debug_macro   0x00000000       0x20 DueRev1.o
+ .debug_macro   0x00000000       0x3a DueRev1.o
+ .debug_macro   0x00000000       0x2d DueRev1.o
+ .debug_macro   0x00000000      0xa7d DueRev1.o
+ .debug_macro   0x00000000      0x55a DueRev1.o
+ .debug_macro   0x00000000      0x1a8 DueRev1.o
+ .debug_macro   0x00000000      0x30b DueRev1.o
+ .debug_macro   0x00000000      0x709 DueRev1.o
+ .debug_macro   0x00000000       0xd6 DueRev1.o
+ .debug_macro   0x00000000      0x56c DueRev1.o
+ .debug_macro   0x00000000       0x1c DueRev1.o
+ .debug_macro   0x00000000      0x678 DueRev1.o
+ .debug_macro   0x00000000      0x51e DueRev1.o
+ .debug_macro   0x00000000       0xbe DueRev1.o
+ .debug_macro   0x00000000     0x2333 DueRev1.o
+ .debug_macro   0x00000000      0x7d1 DueRev1.o
+ .debug_macro   0x00000000      0xdbb DueRev1.o
+ .debug_macro   0x00000000       0x9a DueRev1.o
+ .debug_macro   0x00000000      0x29c DueRev1.o
+ .debug_macro   0x00000000       0x58 DueRev1.o
+ .debug_macro   0x00000000      0x999 DueRev1.o
+ .debug_macro   0x00000000      0x22d DueRev1.o
+ .debug_macro   0x00000000      0x4b4 DueRev1.o
+ .debug_macro   0x00000000      0x64a DueRev1.o
+ .debug_macro   0x00000000      0x590 DueRev1.o
+ .debug_macro   0x00000000       0x46 DueRev1.o
+ .debug_macro   0x00000000      0x33f DueRev1.o
+ .debug_macro   0x00000000      0x27e DueRev1.o
+ .debug_macro   0x00000000     0x14dc DueRev1.o
+ .debug_macro   0x00000000      0x7cf DueRev1.o
+ .debug_macro   0x00000000       0x76 DueRev1.o
+ .debug_macro   0x00000000       0x82 DueRev1.o
+ .debug_macro   0x00000000       0x76 DueRev1.o
+ .debug_macro   0x00000000       0x4c DueRev1.o
+ .debug_macro   0x00000000      0x100 DueRev1.o
+ .debug_macro   0x00000000      0x100 DueRev1.o
+ .debug_macro   0x00000000      0x100 DueRev1.o
+ .debug_macro   0x00000000       0x88 DueRev1.o
+ .debug_macro   0x00000000       0x88 DueRev1.o
+ .debug_macro   0x00000000      0x3b4 DueRev1.o
+ .debug_macro   0x00000000       0xbe DueRev1.o
+ .debug_macro   0x00000000       0xbe DueRev1.o
+ .debug_macro   0x00000000       0xbe DueRev1.o
+ .debug_macro   0x00000000       0xbe DueRev1.o
+ .debug_macro   0x00000000      0x2b8 DueRev1.o
+ .debug_macro   0x00000000      0x118 DueRev1.o
+ .debug_macro   0x00000000      0x216 DueRev1.o
+ .debug_macro   0x00000000      0x216 DueRev1.o
+ .debug_macro   0x00000000       0x2e DueRev1.o
+ .debug_macro   0x00000000       0xac DueRev1.o
+ .debug_macro   0x00000000      0x13e DueRev1.o
+ .debug_macro   0x00000000       0x7c DueRev1.o
+ .debug_macro   0x00000000      0x1f6 DueRev1.o
+ .debug_macro   0x00000000       0x64 DueRev1.o
+ .debug_macro   0x00000000       0xa6 DueRev1.o
+ .debug_macro   0x00000000       0x7c DueRev1.o
+ .debug_macro   0x00000000       0x16 DueRev1.o
+ .debug_macro   0x00000000       0x22 DueRev1.o
+ .debug_macro   0x00000000       0x22 DueRev1.o
+ .debug_macro   0x00000000      0x10c DueRev1.o
+ .debug_macro   0x00000000      0x10c DueRev1.o
+ .debug_macro   0x00000000      0x10c DueRev1.o
+ .debug_macro   0x00000000      0x10c DueRev1.o
+ .debug_macro   0x00000000       0x1c DueRev1.o
+ .debug_macro   0x00000000       0x2e DueRev1.o
+ .debug_macro   0x00000000       0x22 DueRev1.o
+ .debug_macro   0x00000000       0x1c DueRev1.o
+ .debug_macro   0x00000000       0x58 DueRev1.o
+ .debug_macro   0x00000000       0x10 DueRev1.o
+ .debug_macro   0x00000000      0x27a DueRev1.o
+ .debug_macro   0x00000000      0xd34 DueRev1.o
+ .debug_macro   0x00000000      0x170 DueRev1.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .group         0x00000000        0x8 lib/Display.o
+ .text          0x00000000        0x0 lib/Display.o
+ .data          0x00000000        0x0 lib/Display.o
+ .bss           0x00000000        0x0 lib/Display.o
+ .text._ZN7DisplayD2Ev
+                0x00000000       0x20 lib/Display.o
+ .text._ZN7Display8drawTextEhh4FontPKc
+                0x00000000       0xd4 lib/Display.o
+ .rodata._ZL10font_small
+                0x00000000      0x142 lib/Display.o
+ .rodata._ZL10font_large
+                0x00000000      0x1c2 lib/Display.o
+ .debug_macro   0x00000000      0x87a lib/Display.o
+ .debug_macro   0x00000000       0x1c lib/Display.o
+ .debug_macro   0x00000000       0x16 lib/Display.o
+ .debug_macro   0x00000000       0x44 lib/Display.o
+ .debug_macro   0x00000000      0x209 lib/Display.o
+ .debug_macro   0x00000000       0x46 lib/Display.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/display/Bitmap.o
+ .text          0x00000000        0x0 lib/display/Bitmap.o
+ .data          0x00000000        0x0 lib/display/Bitmap.o
+ .bss           0x00000000        0x0 lib/display/Bitmap.o
+ .text._ZN6BitmapC2EhhhhhhPKh
+                0x00000000       0x2c lib/display/Bitmap.o
+ .text._ZN6BitmapC2EhhhhPKh
+                0x00000000       0x26 lib/display/Bitmap.o
+ .text._ZN6BitmapC2EhhPKh
+                0x00000000       0x24 lib/display/Bitmap.o
+ .text._ZN6Bitmap4initEhhhhhhPKh
+                0x00000000       0x2c lib/display/Bitmap.o
+ .text._ZN6Bitmap6moveToEhh
+                0x00000000        0x6 lib/display/Bitmap.o
+ .text._ZN6Bitmap12moveRelativeEhh
+                0x00000000        0xe lib/display/Bitmap.o
+ .text._ZN6Bitmap4getXEv
+                0x00000000        0x4 lib/display/Bitmap.o
+ .text._ZN6Bitmap4getYEv
+                0x00000000        0x4 lib/display/Bitmap.o
+ .text._ZN6Bitmap12setRectangleEhhhh
+                0x00000000        0xe lib/display/Bitmap.o
+ .text._ZN6Bitmap8getRectXEv
+                0x00000000        0x4 lib/display/Bitmap.o
+ .text._ZN6Bitmap8getRectYEv
+                0x00000000        0x4 lib/display/Bitmap.o
+ .text._ZN6Bitmap8getRectWEv
+                0x00000000        0x4 lib/display/Bitmap.o
+ .text._ZN6Bitmap8getRectHEv
+                0x00000000        0x4 lib/display/Bitmap.o
+ .debug_macro   0x00000000      0x87a lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x1c lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x16 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x44 lib/display/Bitmap.o
+ .debug_macro   0x00000000      0x209 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x46 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x58 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x35 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0xa3 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x16 lib/display/Bitmap.o
+ .debug_macro   0x00000000      0x10e lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x8d lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x52 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x16 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x43 lib/display/Bitmap.o
+ .debug_macro   0x00000000      0x180 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x22 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x16 lib/display/Bitmap.o
+ .debug_macro   0x00000000       0x10 lib/display/Bitmap.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .text          0x00000000        0x0 lib/driver/Encoders.o
+ .data          0x00000000        0x0 lib/driver/Encoders.o
+ .bss           0x00000000        0x0 lib/driver/Encoders.o
+ .text._ZN8Encoders4openEPv
+                0x00000000        0x4 lib/driver/Encoders.o
+ .text._ZN8Encoders5closeEv
+                0x00000000        0x4 lib/driver/Encoders.o
+ .text._ZN8Encoders5writeEPv
+                0x00000000        0x4 lib/driver/Encoders.o
+ .text._ZN8Encoders4readEv
+                0x00000000        0x4 lib/driver/Encoders.o
+ .text._ZN8Encoders5ioctlEiPv
+                0x00000000        0x4 lib/driver/Encoders.o
+ .rodata._ZTV8Encoders
+                0x00000000       0x20 lib/driver/Encoders.o
+ .debug_info    0x00000000      0x5eb lib/driver/Encoders.o
+ .debug_abbrev  0x00000000      0x1ca lib/driver/Encoders.o
+ .debug_loc     0x00000000       0xa5 lib/driver/Encoders.o
+ .debug_aranges
+                0x00000000       0x40 lib/driver/Encoders.o
+ .debug_ranges  0x00000000       0x30 lib/driver/Encoders.o
+ .debug_macro   0x00000000      0x111 lib/driver/Encoders.o
+ .debug_macro   0x00000000      0x87a lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x46 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x1c lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x16 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x44 lib/driver/Encoders.o
+ .debug_macro   0x00000000      0x209 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x58 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x35 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0xa3 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x16 lib/driver/Encoders.o
+ .debug_macro   0x00000000      0x10e lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x8d lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x52 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x16 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x43 lib/driver/Encoders.o
+ .debug_macro   0x00000000      0x180 lib/driver/Encoders.o
+ .debug_macro   0x00000000       0x22 lib/driver/Encoders.o
+ .debug_line    0x00000000      0x35a lib/driver/Encoders.o
+ .debug_str     0x00000000     0x497d lib/driver/Encoders.o
+ .comment       0x00000000       0x5c lib/driver/Encoders.o
+ .ARM.attributes
+                0x00000000       0x33 lib/driver/Encoders.o
+ .debug_frame   0x00000000       0x60 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
+ .text          0x00000000        0x0 lib/driver/parameter/SSD1305Params.o
+ .data          0x00000000        0x0 lib/driver/parameter/SSD1305Params.o
+ .bss           0x00000000        0x0 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000      0x87a lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x46 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x1c lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x16 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x44 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000      0x209 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x58 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x35 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0xa3 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x16 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000      0x10e lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x8d lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x52 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x16 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x43 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000      0x180 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x22 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x16 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00000000       0x10 lib/driver/parameter/SSD1305Params.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/ShiftRegisters.o
+ .text          0x00000000        0x0 lib/driver/ShiftRegisters.o
+ .data          0x00000000        0x0 lib/driver/ShiftRegisters.o
+ .bss           0x00000000        0x0 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000      0x87a lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x46 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x1c lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x16 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x44 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000      0x209 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x58 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x35 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0xa3 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x52 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x16 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x16 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000      0x180 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x22 lib/driver/ShiftRegisters.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SPI.o
+ .text          0x00000000        0x0 lib/driver/SPI.o
+ .data          0x00000000        0x0 lib/driver/SPI.o
+ .bss           0x00000000        0x0 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x87a lib/driver/SPI.o
+ .debug_macro   0x00000000       0x46 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x1c lib/driver/SPI.o
+ .debug_macro   0x00000000       0x16 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x44 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x209 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x58 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x35 lib/driver/SPI.o
+ .debug_macro   0x00000000       0xa3 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x16 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x10e lib/driver/SPI.o
+ .debug_macro   0x00000000       0x8d lib/driver/SPI.o
+ .debug_macro   0x00000000       0x52 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x16 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x43 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x180 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x22 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x16 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x606 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x3a lib/driver/SPI.o
+ .debug_macro   0x00000000       0x2d lib/driver/SPI.o
+ .debug_macro   0x00000000      0xbb1 lib/driver/SPI.o
+ .debug_macro   0x00000000      0xa7d lib/driver/SPI.o
+ .debug_macro   0x00000000      0x55a lib/driver/SPI.o
+ .debug_macro   0x00000000      0x1a8 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x30b lib/driver/SPI.o
+ .debug_macro   0x00000000      0x709 lib/driver/SPI.o
+ .debug_macro   0x00000000       0xd6 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x56c lib/driver/SPI.o
+ .debug_macro   0x00000000       0x1c lib/driver/SPI.o
+ .debug_macro   0x00000000      0x678 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x51e lib/driver/SPI.o
+ .debug_macro   0x00000000       0xbe lib/driver/SPI.o
+ .debug_macro   0x00000000     0x2333 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x7d1 lib/driver/SPI.o
+ .debug_macro   0x00000000      0xdbb lib/driver/SPI.o
+ .debug_macro   0x00000000       0x9a lib/driver/SPI.o
+ .debug_macro   0x00000000      0x29c lib/driver/SPI.o
+ .debug_macro   0x00000000       0x58 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x999 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x22d lib/driver/SPI.o
+ .debug_macro   0x00000000      0x4b4 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x64a lib/driver/SPI.o
+ .debug_macro   0x00000000      0x590 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x46 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x33f lib/driver/SPI.o
+ .debug_macro   0x00000000      0x27e lib/driver/SPI.o
+ .debug_macro   0x00000000     0x14dc lib/driver/SPI.o
+ .debug_macro   0x00000000      0x7cf lib/driver/SPI.o
+ .debug_macro   0x00000000       0x76 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x82 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x76 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x4c lib/driver/SPI.o
+ .debug_macro   0x00000000      0x100 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x100 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x100 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x88 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x88 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x3b4 lib/driver/SPI.o
+ .debug_macro   0x00000000       0xbe lib/driver/SPI.o
+ .debug_macro   0x00000000       0xbe lib/driver/SPI.o
+ .debug_macro   0x00000000       0xbe lib/driver/SPI.o
+ .debug_macro   0x00000000       0xbe lib/driver/SPI.o
+ .debug_macro   0x00000000      0x2b8 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x118 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x216 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x216 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x2e lib/driver/SPI.o
+ .debug_macro   0x00000000       0xac lib/driver/SPI.o
+ .debug_macro   0x00000000      0x13e lib/driver/SPI.o
+ .debug_macro   0x00000000       0x7c lib/driver/SPI.o
+ .debug_macro   0x00000000      0x1f6 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x64 lib/driver/SPI.o
+ .debug_macro   0x00000000       0xa6 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x7c lib/driver/SPI.o
+ .debug_macro   0x00000000       0x16 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x22 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x22 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x10c lib/driver/SPI.o
+ .debug_macro   0x00000000      0x10c lib/driver/SPI.o
+ .debug_macro   0x00000000      0x10c lib/driver/SPI.o
+ .debug_macro   0x00000000      0x10c lib/driver/SPI.o
+ .debug_macro   0x00000000       0x1c lib/driver/SPI.o
+ .debug_macro   0x00000000       0x2e lib/driver/SPI.o
+ .debug_macro   0x00000000       0x22 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x1c lib/driver/SPI.o
+ .debug_macro   0x00000000       0x58 lib/driver/SPI.o
+ .debug_macro   0x00000000       0x10 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x27a lib/driver/SPI.o
+ .debug_macro   0x00000000      0xd34 lib/driver/SPI.o
+ .debug_macro   0x00000000      0x170 lib/driver/SPI.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/driver/SSD1305.o
+ .text          0x00000000        0x0 lib/driver/SSD1305.o
+ .data          0x00000000        0x0 lib/driver/SSD1305.o
+ .bss           0x00000000        0x0 lib/driver/SSD1305.o
+ .debug_macro   0x00000000      0x87a lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x1c lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x16 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x44 lib/driver/SSD1305.o
+ .debug_macro   0x00000000      0x209 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x10 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x46 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x58 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x35 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0xa3 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x16 lib/driver/SSD1305.o
+ .debug_macro   0x00000000      0x10e lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x8d lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x52 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x16 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x43 lib/driver/SSD1305.o
+ .debug_macro   0x00000000      0x180 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x22 lib/driver/SSD1305.o
+ .debug_macro   0x00000000       0x16 lib/driver/SSD1305.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .group         0x00000000        0x8 lib/Reporting.o
+ .text          0x00000000        0x0 lib/Reporting.o
+ .data          0x00000000        0x0 lib/Reporting.o
+ .bss           0x00000000        0x0 lib/Reporting.o
+ .text._ZN9Reporting11clearReportEv
+                0x00000000       0x30 lib/Reporting.o
+ .debug_macro   0x00000000      0x87a lib/Reporting.o
+ .debug_macro   0x00000000       0x46 lib/Reporting.o
+ .debug_macro   0x00000000       0x1c lib/Reporting.o
+ .debug_macro   0x00000000       0x16 lib/Reporting.o
+ .debug_macro   0x00000000       0x44 lib/Reporting.o
+ .debug_macro   0x00000000      0x209 lib/Reporting.o
+ .debug_macro   0x00000000       0x58 lib/Reporting.o
+ .debug_macro   0x00000000       0x35 lib/Reporting.o
+ .debug_macro   0x00000000       0xa3 lib/Reporting.o
+ .debug_macro   0x00000000       0x16 lib/Reporting.o
+ .debug_macro   0x00000000      0x10e lib/Reporting.o
+ .debug_macro   0x00000000       0x8d lib/Reporting.o
+ .debug_macro   0x00000000       0x52 lib/Reporting.o
+ .debug_macro   0x00000000       0x16 lib/Reporting.o
+ .debug_macro   0x00000000       0x43 lib/Reporting.o
+ .debug_macro   0x00000000      0x180 lib/Reporting.o
+ .debug_macro   0x00000000       0x22 lib/Reporting.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .debug_macro   0x00000000      0x87a main.o
+ .debug_macro   0x00000000       0x46 main.o
+ .debug_macro   0x00000000      0x606 main.o
+ .debug_macro   0x00000000       0x1c main.o
+ .debug_macro   0x00000000       0x16 main.o
+ .debug_macro   0x00000000       0x44 main.o
+ .debug_macro   0x00000000      0x209 main.o
+ .debug_macro   0x00000000       0x20 main.o
+ .debug_macro   0x00000000       0x3a main.o
+ .debug_macro   0x00000000       0x2d main.o
+ .debug_macro   0x00000000      0xbb1 main.o
+ .debug_macro   0x00000000      0xa7d main.o
+ .debug_macro   0x00000000      0x55a main.o
+ .debug_macro   0x00000000      0x1a8 main.o
+ .debug_macro   0x00000000      0x30b main.o
+ .debug_macro   0x00000000      0x709 main.o
+ .debug_macro   0x00000000       0xd6 main.o
+ .debug_macro   0x00000000      0x56c main.o
+ .debug_macro   0x00000000       0x1c main.o
+ .debug_macro   0x00000000      0x678 main.o
+ .debug_macro   0x00000000      0x51e main.o
+ .debug_macro   0x00000000       0xbe main.o
+ .debug_macro   0x00000000     0x2333 main.o
+ .debug_macro   0x00000000      0x7d1 main.o
+ .debug_macro   0x00000000      0xdbb main.o
+ .debug_macro   0x00000000       0x9a main.o
+ .debug_macro   0x00000000      0x29c main.o
+ .debug_macro   0x00000000       0x58 main.o
+ .debug_macro   0x00000000      0x999 main.o
+ .debug_macro   0x00000000      0x22d main.o
+ .debug_macro   0x00000000      0x4b4 main.o
+ .debug_macro   0x00000000      0x64a main.o
+ .debug_macro   0x00000000      0x590 main.o
+ .debug_macro   0x00000000       0x46 main.o
+ .debug_macro   0x00000000      0x33f main.o
+ .debug_macro   0x00000000      0x27e main.o
+ .debug_macro   0x00000000     0x14dc main.o
+ .debug_macro   0x00000000      0x7cf main.o
+ .debug_macro   0x00000000       0x76 main.o
+ .debug_macro   0x00000000       0x82 main.o
+ .debug_macro   0x00000000       0x76 main.o
+ .debug_macro   0x00000000       0x4c main.o
+ .debug_macro   0x00000000      0x100 main.o
+ .debug_macro   0x00000000      0x100 main.o
+ .debug_macro   0x00000000      0x100 main.o
+ .debug_macro   0x00000000       0x88 main.o
+ .debug_macro   0x00000000       0x88 main.o
+ .debug_macro   0x00000000      0x3b4 main.o
+ .debug_macro   0x00000000       0xbe main.o
+ .debug_macro   0x00000000       0xbe main.o
+ .debug_macro   0x00000000       0xbe main.o
+ .debug_macro   0x00000000       0xbe main.o
+ .debug_macro   0x00000000      0x2b8 main.o
+ .debug_macro   0x00000000      0x118 main.o
+ .debug_macro   0x00000000      0x216 main.o
+ .debug_macro   0x00000000      0x216 main.o
+ .debug_macro   0x00000000       0x2e main.o
+ .debug_macro   0x00000000       0xac main.o
+ .debug_macro   0x00000000      0x13e main.o
+ .debug_macro   0x00000000       0x7c main.o
+ .debug_macro   0x00000000      0x1f6 main.o
+ .debug_macro   0x00000000       0x64 main.o
+ .debug_macro   0x00000000       0xa6 main.o
+ .debug_macro   0x00000000       0x7c main.o
+ .debug_macro   0x00000000       0x16 main.o
+ .debug_macro   0x00000000       0x22 main.o
+ .debug_macro   0x00000000       0x22 main.o
+ .debug_macro   0x00000000      0x10c main.o
+ .debug_macro   0x00000000      0x10c main.o
+ .debug_macro   0x00000000      0x10c main.o
+ .debug_macro   0x00000000      0x10c main.o
+ .debug_macro   0x00000000       0x1c main.o
+ .debug_macro   0x00000000       0x2e main.o
+ .debug_macro   0x00000000       0x22 main.o
+ .debug_macro   0x00000000       0x1c main.o
+ .debug_macro   0x00000000       0x58 main.o
+ .debug_macro   0x00000000       0x10 main.o
+ .debug_macro   0x00000000      0x27a main.o
+ .debug_macro   0x00000000      0xd34 main.o
+ .debug_macro   0x00000000      0x170 main.o
+ .debug_macro   0x00000000       0x58 main.o
+ .debug_macro   0x00000000       0x35 main.o
+ .debug_macro   0x00000000       0xa3 main.o
+ .debug_macro   0x00000000       0x16 main.o
+ .debug_macro   0x00000000      0x10e main.o
+ .debug_macro   0x00000000       0x8d main.o
+ .debug_macro   0x00000000       0x52 main.o
+ .debug_macro   0x00000000       0x16 main.o
+ .debug_macro   0x00000000       0x43 main.o
+ .debug_macro   0x00000000      0x180 main.o
+ .debug_macro   0x00000000       0x22 main.o
+ .debug_macro   0x00000000       0x10 main.o
+ .debug_macro   0x00000000       0x16 main.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+ .text._ZdlPv   0x00000000        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+ .text.__cxa_guard_abort
+                0x00000000        0x6 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x00000000       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .text._signal_r
+                0x00000000       0x30 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x00000000       0x4a c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .text.signal   0x00000000       0x14 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .text._init_signal
+                0x00000000        0xc c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x00000000       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xbc c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtend.o
+ .jcr           0x00000000        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00080000         0x00080000         xr
+ram              0x20000000         0x00018000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+LOAD cmsis/src/startup_sam3xa.o
+LOAD cmsis/src/system_sam3xa.o
+LOAD DueRev1.o
+LOAD lib/Display.o
+LOAD lib/display/Bitmap.o
+LOAD lib/driver/Encoders.o
+LOAD lib/driver/parameter/SSD1305Params.o
+LOAD lib/driver/ShiftRegisters.o
+LOAD lib/driver/SPI.o
+LOAD lib/driver/SSD1305.o
+LOAD lib/Reporting.o
+LOAD main.o
+START GROUP
+LOAD ../../../../arduinoCore\libcore.a
+END GROUP
+                0x00002000                HEAP_SIZE = 0x2000
+                0x00009000                STACK_SIZE = 0x9000
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
+END GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtend.o
+LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+                0x00000400                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:0x400
+                0x00000200                HEAP_SIZE = DEFINED (HEAP_SIZE)?HEAP_SIZE:0x200
+
+.text           0x00080000     0x1204
+                0x00080000                . = ALIGN (0x4)
+                0x00080000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x00080000       0xf4 cmsis/src/startup_sam3xa.o
+                0x00080000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x000800f4       0x54 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+ .text.Dummy_Handler
+                0x00080148        0x2 cmsis/src/startup_sam3xa.o
+                0x00080148                DACC_Handler
+                0x00080148                DebugMon_Handler
+                0x00080148                DMAC_Handler
+                0x00080148                TRNG_Handler
+                0x00080148                HardFault_Handler
+                0x00080148                TC2_Handler
+                0x00080148                SysTick_Handler
+                0x00080148                USART3_Handler
+                0x00080148                TWI1_Handler
+                0x00080148                PendSV_Handler
+                0x00080148                NMI_Handler
+                0x00080148                TC7_Handler
+                0x00080148                ADC_Handler
+                0x00080148                SMC_Handler
+                0x00080148                USART0_Handler
+                0x00080148                RTT_Handler
+                0x00080148                EFC1_Handler
+                0x00080148                PIOB_Handler
+                0x00080148                RTC_Handler
+                0x00080148                UsageFault_Handler
+                0x00080148                TC6_Handler
+                0x00080148                WDT_Handler
+                0x00080148                CAN0_Handler
+                0x00080148                TC4_Handler
+                0x00080148                TC1_Handler
+                0x00080148                HSMCI_Handler
+                0x00080148                TC3_Handler
+                0x00080148                Dummy_Handler
+                0x00080148                TWI0_Handler
+                0x00080148                USART1_Handler
+                0x00080148                PIOA_Handler
+                0x00080148                SSC_Handler
+                0x00080148                EFC0_Handler
+                0x00080148                PMC_Handler
+                0x00080148                PWM_Handler
+                0x00080148                CAN1_Handler
+                0x00080148                MemManage_Handler
+                0x00080148                SUPC_Handler
+                0x00080148                SVC_Handler
+                0x00080148                TC8_Handler
+                0x00080148                USART2_Handler
+                0x00080148                PIOD_Handler
+                0x00080148                EMAC_Handler
+                0x00080148                UART_Handler
+                0x00080148                PIOC_Handler
+                0x00080148                BusFault_Handler
+                0x00080148                RSTC_Handler
+                0x00080148                TC5_Handler
+                0x00080148                UOTGHS_Handler
+                0x00080148                SPI0_Handler
+ *fill*         0x0008014a        0x2 
+ .text.Reset_Handler
+                0x0008014c       0x70 cmsis/src/startup_sam3xa.o
+                0x0008014c                Reset_Handler
+ .text.SystemInit
+                0x000801bc       0x88 cmsis/src/system_sam3xa.o
+                0x000801bc                SystemInit
+ .text.TC0_Handler
+                0x00080244       0x10 DueRev1.o
+                0x00080244                TC0_Handler
+ .text._Z10pinSetMode4Porti4Mode
+                0x00080254      0x104 DueRev1.o
+                0x00080254                pinSetMode(Port, int, Mode)
+ .text._Z16pinDisablePullup4Porti
+                0x00080358       0x48 DueRev1.o
+                0x00080358                pinDisablePullup(Port, int)
+ .text._Z12pinSetOutput4Portii
+                0x000803a0       0x84 DueRev1.o
+                0x000803a0                pinSetOutput(Port, int, int)
+ .text._ZN7SSD13058InstanceEv
+                0x00080424       0x38 lib/Display.o
+                0x00080424                SSD1305::Instance()
+ .text._ZN7DisplayC2Ev
+                0x0008045c       0x54 lib/Display.o
+                0x0008045c                Display::Display()
+                0x0008045c                Display::Display()
+ .text._ZN7Display10drawBitmapER6Bitmap
+                0x000804b0       0x14 lib/Display.o
+                0x000804b0                Display::drawBitmap(Bitmap&)
+ .text._ZN7Display5paintEv
+                0x000804c4       0x18 lib/Display.o
+                0x000804c4                Display::paint()
+ .text._ZN6BitmapC2EPKh
+                0x000804dc       0x24 lib/display/Bitmap.o
+                0x000804dc                Bitmap::Bitmap(unsigned char const*)
+                0x000804dc                Bitmap::Bitmap(unsigned char const*)
+ .text._ZN6Bitmap4drawER13SSD1305Params
+                0x00080500       0x68 lib/display/Bitmap.o
+                0x00080500                Bitmap::draw(SSD1305Params&)
+ .text._ZN13SSD1305ParamsC2Ev
+                0x00080568        0x2 lib/driver/parameter/SSD1305Params.o
+                0x00080568                SSD1305Params::SSD1305Params()
+                0x00080568                SSD1305Params::SSD1305Params()
+ .text._ZN13SSD1305ParamsD2Ev
+                0x0008056a        0x2 lib/driver/parameter/SSD1305Params.o
+                0x0008056a                SSD1305Params::~SSD1305Params()
+                0x0008056a                SSD1305Params::~SSD1305Params()
+ .text._ZN13SSD1305Params8setPixelEiii
+                0x0008056c       0x3e lib/driver/parameter/SSD1305Params.o
+                0x0008056c                SSD1305Params::setPixel(int, int, int)
+ .text._ZN13SSD1305Params5clearEi
+                0x000805aa       0x16 lib/driver/parameter/SSD1305Params.o
+                0x000805aa                SSD1305Params::clear(int)
+ .text._ZN14ShiftRegisters5closeEv
+                0x000805c0        0x4 lib/driver/ShiftRegisters.o
+                0x000805c0                ShiftRegisters::close()
+ .text._ZN14ShiftRegisters4readEv
+                0x000805c4        0x4 lib/driver/ShiftRegisters.o
+                0x000805c4                ShiftRegisters::read()
+ .text._ZN14ShiftRegisters5ioctlEiPv
+                0x000805c8        0x4 lib/driver/ShiftRegisters.o
+                0x000805c8                ShiftRegisters::ioctl(int, void*)
+ .text._ZN14ShiftRegisters4openEPv
+                0x000805cc       0x9c lib/driver/ShiftRegisters.o
+                0x000805cc                ShiftRegisters::open(void*)
+ .text._ZN14ShiftRegisters5writeEPv
+                0x00080668       0xa8 lib/driver/ShiftRegisters.o
+                0x00080668                ShiftRegisters::write(void*)
+ .text._ZN3SPI5closeEv
+                0x00080710       0x1c lib/driver/SPI.o
+                0x00080710                SPI::close()
+ .text._ZN3SPI4readEv
+                0x0008072c        0x4 lib/driver/SPI.o
+                0x0008072c                SPI::read()
+ .text._ZN3SPI4openEPv
+                0x00080730       0x7c lib/driver/SPI.o
+                0x00080730                SPI::open(void*)
+ .text._ZN3SPI5ioctlEiPv
+                0x000807ac       0x14 lib/driver/SPI.o
+                0x000807ac                SPI::ioctl(int, void*)
+ .text._ZN3SPI5writeEPv
+                0x000807c0       0x48 lib/driver/SPI.o
+                0x000807c0                SPI::write(void*)
+ .text._ZN7SSD13055closeEv
+                0x00080808        0x4 lib/driver/SSD1305.o
+                0x00080808                SSD1305::close()
+ .text._ZN7SSD13054readEv
+                0x0008080c        0x4 lib/driver/SSD1305.o
+                0x0008080c                SSD1305::read()
+ .text._ZN7SSD13055ioctlEiPv
+                0x00080810        0x4 lib/driver/SSD1305.o
+                0x00080810                SSD1305::ioctl(int, void*)
+ .text._ZN3SPI8InstanceEv
+                0x00080814       0x3c lib/driver/SSD1305.o
+                0x00080814                SPI::Instance()
+ .text._ZN7SSD13054openEPv
+                0x00080850      0x2a0 lib/driver/SSD1305.o
+                0x00080850                SSD1305::open(void*)
+ .text._ZN7SSD13055writeEPv
+                0x00080af0       0x9c lib/driver/SSD1305.o
+                0x00080af0                SSD1305::write(void*)
+ .text._ZN14ShiftRegisters8InstanceEv
+                0x00080b8c       0x38 lib/Reporting.o
+                0x00080b8c                ShiftRegisters::Instance()
+ .text._ZN9Reporting10reportCodeE8Priority17VisualStateMethodm
+                0x00080bc4       0x38 lib/Reporting.o
+                0x00080bc4                Reporting::reportCode(Priority, VisualStateMethod, unsigned long)
+ .text._ZN9Reporting8InstanceEv
+                0x00080bfc       0x3c main.o
+                0x00080bfc                Reporting::Instance()
+ .text.startup.main
+                0x00080c38       0x68 main.o
+                0x00080c38                main
+ .text.__cxa_guard_acquire
+                0x00080ca0       0x1c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+                0x00080ca0                __cxa_guard_acquire
+ .text.__cxa_guard_release
+                0x00080cbc        0x6 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+                0x00080cbc                __cxa_guard_release
+ .text.abort    0x00080cc2        0xe c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+                0x00080cc2                abort
+ .text.__libc_init_array
+                0x00080cd0       0x4c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+                0x00080cd0                __libc_init_array
+ .text.malloc   0x00080d1c       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+                0x00080d1c                malloc
+ .text.free     0x00080d2c       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+                0x00080d2c                free
+ .text.memcpy   0x00080d3c       0x12 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+                0x00080d3c                memcpy
+ *fill*         0x00080d4e        0x2 
+ .text._free_r  0x00080d50       0x88 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+                0x00080d50                _free_r
+ .text._malloc_r
+                0x00080dd8       0xa8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+                0x00080dd8                _malloc_r
+ .text._sbrk_r  0x00080e80       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+                0x00080e80                _sbrk_r
+ .text._raise_r
+                0x00080ea0       0x50 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+                0x00080ea0                _raise_r
+ .text.raise    0x00080ef0       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+                0x00080ef0                raise
+ .text._kill_r  0x00080f00       0x24 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+                0x00080f00                _kill_r
+ .text._getpid_r
+                0x00080f24        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+                0x00080f24                _getpid_r
+ .text._getpid  0x00080f28       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+                0x00080f28                _getpid
+ .text._kill    0x00080f38       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+                0x00080f38                _kill
+ .text._sbrk    0x00080f48       0x34 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+                0x00080f48                _sbrk
+ .text._exit    0x00080f7c        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+                0x00080f7c                _exit
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata._ZTV14ShiftRegisters
+                0x00080f80       0x20 lib/driver/ShiftRegisters.o
+                0x00080f80                vtable for ShiftRegisters
+ .rodata._ZTV3SPI
+                0x00080fa0       0x20 lib/driver/SPI.o
+                0x00080fa0                vtable for SPI
+ .rodata._ZTV7SSD1305
+                0x00080fc0       0x20 lib/driver/SSD1305.o
+                0x00080fc0                vtable for SSD1305
+ .rodata._ZL9edit_note
+                0x00080fe0      0x202 main.o
+ .rodata.str1.1
+                0x000811e2        0x2 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000811e4                . = ALIGN (0x4)
+ *(.init)
+ .init          0x000811e4        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+                0x000811e4                _init
+ .init          0x000811e8        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+                0x000811f0                . = ALIGN (0x4)
+                0x000811f0                __preinit_array_start = .
+ *(.preinit_array)
+                0x000811f0                __preinit_array_end = .
+                0x000811f0                . = ALIGN (0x4)
+                0x000811f0                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x000811f0        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+                0x000811f4                __init_array_end = .
+                0x000811f4                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x000811f4                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x000811f4        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+                0x000811f4                _fini
+ .fini          0x000811f8        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+                0x00081200                . = ALIGN (0x4)
+                0x00081200                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00081200        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00081204                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x00081204                . = ALIGN (0x4)
+                0x00081204                _efixed = .
+                0x00081204                PROVIDE (__exidx_start, .)
+
+.vfp11_veneer   0x00081204        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00081204        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00081204        0x0
+ .iplt          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+
+.eh_frame       0x00081204        0x0
+ .eh_frame      0x00081204        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+
+.rel.dyn        0x00081204        0x0
+ .rel.iplt      0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+
+.jcr            0x00081204        0x0
+ .jcr           0x00081204        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+
+.igot.plt       0x00081204        0x0
+ .igot.plt      0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00081204                PROVIDE (__exidx_end, .)
+                0x00081204                . = ALIGN (0x4)
+                0x00081204                _etext = .
+
+.relocate       0x20000000       0x68 load address 0x00081204
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.SystemCoreClock
+                0x20000000        0x4 cmsis/src/system_sam3xa.o
+                0x20000000                SystemCoreClock
+ .data.impure_data
+                0x20000004       0x60 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000064        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+                0x20000064                _impure_ptr
+                0x20000068                . = ALIGN (0x4)
+                0x20000068                _erelocate = .
+
+.bss            0x20000068       0x5c load address 0x0008126c
+                0x20000068                . = ALIGN (0x4)
+                0x20000068                _sbss = .
+                0x20000068                _szero = .
+ *(.bss .bss.*)
+ .bss           0x20000068       0x1c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+ .bss.__due_tc0_callback
+                0x20000084        0x4 DueRev1.o
+                0x20000084                __due_tc0_callback
+ .bss._ZZN7SSD13058InstanceEvE8instance
+                0x20000088        0x4 lib/Display.o
+                0x20000088                SSD1305::Instance()::instance
+ .bss._ZGVZN7SSD13058InstanceEvE8instance
+                0x2000008c        0x4 lib/Display.o
+                0x2000008c                guard variable for SSD1305::Instance()::instance
+ .bss._ZZN3SPI8InstanceEvE8instance
+                0x20000090       0x10 lib/driver/SSD1305.o
+                0x20000090                SPI::Instance()::instance
+ .bss._ZGVZN3SPI8InstanceEvE8instance
+                0x200000a0        0x4 lib/driver/SSD1305.o
+                0x200000a0                guard variable for SPI::Instance()::instance
+ .bss._ZZN14ShiftRegisters8InstanceEvE8instance
+                0x200000a4        0x4 lib/Reporting.o
+                0x200000a4                ShiftRegisters::Instance()::instance
+ .bss._ZGVZN14ShiftRegisters8InstanceEvE8instance
+                0x200000a8        0x4 lib/Reporting.o
+                0x200000a8                guard variable for ShiftRegisters::Instance()::instance
+ .bss._ZZN9Reporting8InstanceEvE8instance
+                0x200000ac        0x4 main.o
+                0x200000ac                Reporting::Instance()::instance
+ .bss._ZGVZN9Reporting8InstanceEvE8instance
+                0x200000b0        0x4 main.o
+                0x200000b0                guard variable for Reporting::Instance()::instance
+ .bss.__malloc_sbrk_start
+                0x200000b4        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+                0x200000b4                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x200000b8        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+                0x200000b8                __malloc_free_list
+ .bss.heap_end.4246
+                0x200000bc        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+ *(COMMON)
+ COMMON         0x200000c0        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+                0x200000c0                errno
+                0x200000c4                . = ALIGN (0x4)
+                0x200000c4                _ebss = .
+                0x200000c4                _ezero = .
+
+.stack          0x200000c4     0x9004 load address 0x000812c8
+                0x200000c8                . = ALIGN (0x8)
+ *fill*         0x200000c4        0x4 
+                0x200000c8                _sstack = .
+                0x200090c8                . = (. + STACK_SIZE)
+ *fill*         0x200000c8     0x9000 
+                0x200090c8                . = ALIGN (0x8)
+                0x200090c8                _estack = .
+
+.heap           0x200090c8     0x2000 load address 0x0008a2cc
+                0x200090c8                . = ALIGN (0x8)
+                0x200090c8                _sheap = .
+                0x2000b0c8                . = (. + HEAP_SIZE)
+ *fill*         0x200090c8     0x2000 
+                0x2000b0c8                . = ALIGN (0x8)
+                0x2000b0c8                _eheap = .
+                0x2000b0c8                . = ALIGN (0x4)
+                0x2000b0c8                _end = .
+                0x20000000                end = ORIGIN (ram)
+                0x20017fff                _ram_end_ = ((ORIGIN (ram) + 0x18000) - 0x1)
+OUTPUT(OshStep.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x29
+ .ARM.attributes
+                0x00000000       0x1d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x33 cmsis/src/startup_sam3xa.o
+ .ARM.attributes
+                0x0000007d       0x33 cmsis/src/system_sam3xa.o
+ .ARM.attributes
+                0x000000b0       0x33 DueRev1.o
+ .ARM.attributes
+                0x000000e3       0x33 lib/Display.o
+ .ARM.attributes
+                0x00000116       0x33 lib/display/Bitmap.o
+ .ARM.attributes
+                0x00000149       0x33 lib/driver/parameter/SSD1305Params.o
+ .ARM.attributes
+                0x0000017c       0x33 lib/driver/ShiftRegisters.o
+ .ARM.attributes
+                0x000001af       0x33 lib/driver/SPI.o
+ .ARM.attributes
+                0x000001e2       0x33 lib/driver/SSD1305.o
+ .ARM.attributes
+                0x00000215       0x33 lib/Reporting.o
+ .ARM.attributes
+                0x00000248       0x33 main.o
+ .ARM.attributes
+                0x0000027b       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+ .ARM.attributes
+                0x000002a8       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+ .ARM.attributes
+                0x000002d5       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000302       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000032f       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000035c       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000389       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x000003b6       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x000003e3       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000410       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .ARM.attributes
+                0x0000043d       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x0000046a       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000497       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+ .ARM.attributes
+                0x000004c4       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+ .ARM.attributes
+                0x000004f1       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0000051e       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000054b       0x1d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+
+.comment        0x00000000       0x5b
+ .comment       0x00000000       0x5b cmsis/src/startup_sam3xa.o
+                                 0x5c (size before relaxing)
+ .comment       0x00000000       0x5c cmsis/src/system_sam3xa.o
+ .comment       0x00000000       0x5c DueRev1.o
+ .comment       0x00000000       0x5c lib/Display.o
+ .comment       0x00000000       0x5c lib/display/Bitmap.o
+ .comment       0x00000000       0x5c lib/driver/parameter/SSD1305Params.o
+ .comment       0x00000000       0x5c lib/driver/ShiftRegisters.o
+ .comment       0x00000000       0x5c lib/driver/SPI.o
+ .comment       0x00000000       0x5c lib/driver/SSD1305.o
+ .comment       0x00000000       0x5c lib/Reporting.o
+ .comment       0x00000000       0x5c main.o
+
+.debug_info     0x00000000     0x6541
+ .debug_info    0x00000000      0x6f0 cmsis/src/startup_sam3xa.o
+ .debug_info    0x000006f0      0x451 cmsis/src/system_sam3xa.o
+ .debug_info    0x00000b41      0xcce DueRev1.o
+ .debug_info    0x0000180f      0xc5e lib/Display.o
+ .debug_info    0x0000246d      0xb8a lib/display/Bitmap.o
+ .debug_info    0x00002ff7      0x2e1 lib/driver/parameter/SSD1305Params.o
+ .debug_info    0x000032d8      0x9f3 lib/driver/ShiftRegisters.o
+ .debug_info    0x00003ccb      0xb1a lib/driver/SPI.o
+ .debug_info    0x000047e5      0xdf5 lib/driver/SSD1305.o
+ .debug_info    0x000055da      0x5c5 lib/Reporting.o
+ .debug_info    0x00005b9f      0x9a2 main.o
+
+.debug_abbrev   0x00000000     0x1c6c
+ .debug_abbrev  0x00000000      0x13f cmsis/src/startup_sam3xa.o
+ .debug_abbrev  0x0000013f      0x10d cmsis/src/system_sam3xa.o
+ .debug_abbrev  0x0000024c      0x1f4 DueRev1.o
+ .debug_abbrev  0x00000440      0x3f0 lib/Display.o
+ .debug_abbrev  0x00000830      0x2d2 lib/display/Bitmap.o
+ .debug_abbrev  0x00000b02      0x1b6 lib/driver/parameter/SSD1305Params.o
+ .debug_abbrev  0x00000cb8      0x26a lib/driver/ShiftRegisters.o
+ .debug_abbrev  0x00000f22      0x365 lib/driver/SPI.o
+ .debug_abbrev  0x00001287      0x3b8 lib/driver/SSD1305.o
+ .debug_abbrev  0x0000163f      0x2fd lib/Reporting.o
+ .debug_abbrev  0x0000193c      0x330 main.o
+
+.debug_loc      0x00000000     0x15d1
+ .debug_loc     0x00000000       0xa1 cmsis/src/startup_sam3xa.o
+ .debug_loc     0x000000a1       0x20 cmsis/src/system_sam3xa.o
+ .debug_loc     0x000000c1      0x3f5 DueRev1.o
+ .debug_loc     0x000004b6      0x38d lib/Display.o
+ .debug_loc     0x00000843      0x4c0 lib/display/Bitmap.o
+ .debug_loc     0x00000d03       0xbb lib/driver/parameter/SSD1305Params.o
+ .debug_loc     0x00000dbe      0x209 lib/driver/ShiftRegisters.o
+ .debug_loc     0x00000fc7      0x192 lib/driver/SPI.o
+ .debug_loc     0x00001159      0x2d4 lib/driver/SSD1305.o
+ .debug_loc     0x0000142d      0x13f lib/Reporting.o
+ .debug_loc     0x0000156c       0x65 main.o
+
+.debug_aranges  0x00000000      0x2d8
+ .debug_aranges
+                0x00000000       0x28 cmsis/src/startup_sam3xa.o
+ .debug_aranges
+                0x00000028       0x30 cmsis/src/system_sam3xa.o
+ .debug_aranges
+                0x00000058       0x50 DueRev1.o
+ .debug_aranges
+                0x000000a8       0x48 lib/Display.o
+ .debug_aranges
+                0x000000f0       0x90 lib/display/Bitmap.o
+ .debug_aranges
+                0x00000180       0x38 lib/driver/parameter/SSD1305Params.o
+ .debug_aranges
+                0x000001b8       0x40 lib/driver/ShiftRegisters.o
+ .debug_aranges
+                0x000001f8       0x40 lib/driver/SPI.o
+ .debug_aranges
+                0x00000238       0x48 lib/driver/SSD1305.o
+ .debug_aranges
+                0x00000280       0x30 lib/Reporting.o
+ .debug_aranges
+                0x000002b0       0x28 main.o
+
+.debug_ranges   0x00000000      0x398
+ .debug_ranges  0x00000000       0x18 cmsis/src/startup_sam3xa.o
+ .debug_ranges  0x00000018       0x20 cmsis/src/system_sam3xa.o
+ .debug_ranges  0x00000038       0x58 DueRev1.o
+ .debug_ranges  0x00000090       0x68 lib/Display.o
+ .debug_ranges  0x000000f8       0xb0 lib/display/Bitmap.o
+ .debug_ranges  0x000001a8       0x28 lib/driver/parameter/SSD1305Params.o
+ .debug_ranges  0x000001d0       0x88 lib/driver/ShiftRegisters.o
+ .debug_ranges  0x00000258       0x48 lib/driver/SPI.o
+ .debug_ranges  0x000002a0       0x90 lib/driver/SSD1305.o
+ .debug_ranges  0x00000330       0x38 lib/Reporting.o
+ .debug_ranges  0x00000368       0x30 main.o
+
+.debug_macro    0x00000000    0x1338f
+ .debug_macro   0x00000000      0x332 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00000332      0x86e cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00000ba0       0x16 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00000bb6       0x44 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00000bfa      0x209 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00000e03       0x20 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00000e23       0x3a cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00000e5d       0x2d cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00000e8a      0xbb1 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00001a3b      0xa7d cmsis/src/startup_sam3xa.o
+ .debug_macro   0x000024b8      0x55a cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00002a12      0x1a8 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00002bba      0x30b cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00002ec5      0x709 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x000035ce       0xd6 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x000036a4      0x56c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00003c10       0x1c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00003c2c      0x678 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x000042a4      0x51e cmsis/src/startup_sam3xa.o
+ .debug_macro   0x000047c2       0xbe cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00004880     0x2333 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00006bb3      0x7d1 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00007384      0xdbb cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000813f       0x9a cmsis/src/startup_sam3xa.o
+ .debug_macro   0x000081d9      0x29c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00008475       0x58 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x000084cd      0x999 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00008e66      0x22d cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00009093      0x4b4 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00009547      0x64a cmsis/src/startup_sam3xa.o
+ .debug_macro   0x00009b91      0x590 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000a121       0x46 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000a167      0x33f cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000a4a6      0x27e cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000a724     0x14dc cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000bc00      0x7cf cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c3cf       0x76 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c445       0x82 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c4c7       0x76 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c53d       0x4c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c589      0x100 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c689      0x100 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c789      0x100 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c889       0x88 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c911       0x88 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000c999      0x3b4 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000cd4d       0xbe cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000ce0b       0xbe cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000cec9       0xbe cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000cf87       0xbe cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000d045      0x2b8 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000d2fd      0x118 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000d415      0x216 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000d62b      0x216 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000d841       0x2e cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000d86f       0xac cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000d91b      0x13e cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000da59       0x7c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000dad5      0x1f6 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000dccb       0x64 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000dd2f       0xa6 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000ddd5       0x7c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000de51       0x16 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000de67       0x22 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000de89       0x22 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000deab      0x10c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000dfb7      0x10c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e0c3      0x10c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e1cf      0x10c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e2db       0x1c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e2f7       0x2e cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e325       0x22 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e347       0x1c cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e363       0x58 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e3bb       0x10 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e3cb      0x27a cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000e645      0xd34 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000f379      0x170 cmsis/src/startup_sam3xa.o
+ .debug_macro   0x0000f4e9      0x344 cmsis/src/system_sam3xa.o
+ .debug_macro   0x0000f82d      0x354 DueRev1.o
+ .debug_macro   0x0000fb81      0x87a DueRev1.o
+ .debug_macro   0x000103fb      0x606 DueRev1.o
+ .debug_macro   0x00010a01       0x1c DueRev1.o
+ .debug_macro   0x00010a1d      0xbb1 DueRev1.o
+ .debug_macro   0x000115ce       0x46 DueRev1.o
+ .debug_macro   0x00011614      0x17b lib/Display.o
+ .debug_macro   0x0001178f       0x58 lib/Display.o
+ .debug_macro   0x000117e7       0x35 lib/Display.o
+ .debug_macro   0x0001181c       0xa3 lib/Display.o
+ .debug_macro   0x000118bf       0x16 lib/Display.o
+ .debug_macro   0x000118d5      0x10e lib/Display.o
+ .debug_macro   0x000119e3       0x8d lib/Display.o
+ .debug_macro   0x00011a70       0x52 lib/Display.o
+ .debug_macro   0x00011ac2       0x16 lib/Display.o
+ .debug_macro   0x00011ad8       0x43 lib/Display.o
+ .debug_macro   0x00011b1b      0x180 lib/Display.o
+ .debug_macro   0x00011c9b       0x22 lib/Display.o
+ .debug_macro   0x00011cbd       0x16 lib/Display.o
+ .debug_macro   0x00011cd3       0x10 lib/Display.o
+ .debug_macro   0x00011ce3      0x15f lib/display/Bitmap.o
+ .debug_macro   0x00011e42      0x155 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x00011f97      0x15a lib/driver/ShiftRegisters.o
+ .debug_macro   0x000120f1       0x19 lib/driver/ShiftRegisters.o
+ .debug_macro   0x0001210a      0x174 lib/driver/ShiftRegisters.o
+ .debug_macro   0x0001227e       0x22 lib/driver/ShiftRegisters.o
+ .debug_macro   0x000122a0       0xbd lib/driver/ShiftRegisters.o
+ .debug_macro   0x0001235d       0x10 lib/driver/ShiftRegisters.o
+ .debug_macro   0x0001236d       0x35 lib/driver/ShiftRegisters.o
+ .debug_macro   0x000123a2      0x48e lib/driver/ShiftRegisters.o
+ .debug_macro   0x00012830      0x434 lib/driver/SPI.o
+ .debug_macro   0x00012c64       0x26 lib/driver/SPI.o
+ .debug_macro   0x00012c8a      0x155 lib/driver/SSD1305.o
+ .debug_macro   0x00012ddf      0x11b lib/Reporting.o
+ .debug_macro   0x00012efa      0x495 main.o
+
+.debug_line     0x00000000     0x496e
+ .debug_line    0x00000000      0x79e cmsis/src/startup_sam3xa.o
+ .debug_line    0x0000079e      0x7ec cmsis/src/system_sam3xa.o
+ .debug_line    0x00000f8a      0x89f DueRev1.o
+ .debug_line    0x00001829      0x5d4 lib/Display.o
+ .debug_line    0x00001dfd      0x646 lib/display/Bitmap.o
+ .debug_line    0x00002443      0x491 lib/driver/parameter/SSD1305Params.o
+ .debug_line    0x000028d4      0x418 lib/driver/ShiftRegisters.o
+ .debug_line    0x00002cec      0x9a9 lib/driver/SPI.o
+ .debug_line    0x00003695      0x50e lib/driver/SSD1305.o
+ .debug_line    0x00003ba3      0x37d lib/Reporting.o
+ .debug_line    0x00003f20      0xa4e main.o
+
+.debug_str      0x00000000    0x55d8d
+ .debug_str     0x00000000    0x4e3fe cmsis/src/startup_sam3xa.o
+                              0x4e5a5 (size before relaxing)
+ .debug_str     0x0004e3fe      0x2d2 cmsis/src/system_sam3xa.o
+                              0x4e36f (size before relaxing)
+ .debug_str     0x0004e6d0     0x441f DueRev1.o
+                              0x5245f (size before relaxing)
+ .debug_str     0x00052aef     0x1b4e lib/Display.o
+                               0x4ca8 (size before relaxing)
+ .debug_str     0x0005463d       0x8c lib/display/Bitmap.o
+                               0x4adf (size before relaxing)
+ .debug_str     0x000546c9       0x58 lib/driver/parameter/SSD1305Params.o
+                               0x4926 (size before relaxing)
+ .debug_str     0x00054721     0x135b lib/driver/ShiftRegisters.o
+                               0x5bfb (size before relaxing)
+ .debug_str     0x00055a7c      0x149 lib/driver/SPI.o
+                              0x53795 (size before relaxing)
+ .debug_str     0x00055bc5       0xaf lib/driver/SSD1305.o
+                               0x4b0e (size before relaxing)
+ .debug_str     0x00055c74       0xf4 lib/Reporting.o
+                               0x49e1 (size before relaxing)
+ .debug_str     0x00055d68       0x25 main.o
+                              0x538ba (size before relaxing)
+
+.debug_frame    0x00000000      0x8e4
+ .debug_frame   0x00000000       0x38 cmsis/src/startup_sam3xa.o
+ .debug_frame   0x00000038       0x48 cmsis/src/system_sam3xa.o
+ .debug_frame   0x00000080       0x88 DueRev1.o
+ .debug_frame   0x00000108       0xbc lib/Display.o
+ .debug_frame   0x000001c4      0x150 lib/display/Bitmap.o
+ .debug_frame   0x00000314       0x58 lib/driver/parameter/SSD1305Params.o
+ .debug_frame   0x0000036c       0x78 lib/driver/ShiftRegisters.o
+ .debug_frame   0x000003e4       0x78 lib/driver/SPI.o
+ .debug_frame   0x0000045c       0xa4 lib/driver/SSD1305.o
+ .debug_frame   0x00000500       0x60 lib/Reporting.o
+ .debug_frame   0x00000560       0x48 main.o
+ .debug_frame   0x000005a8       0x48 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+ .debug_frame   0x000005f0       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+ .debug_frame   0x00000618       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .debug_frame   0x00000644       0x30 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+ .debug_frame   0x00000674       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000069c       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+ .debug_frame   0x000006c8       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x000006f4       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000720       0xc0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .debug_frame   0x000007e0       0x3c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+ .debug_frame   0x0000081c       0x48 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+ .debug_frame   0x00000864       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+ .debug_frame   0x00000884       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+ .debug_frame   0x000008a4       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+ .debug_frame   0x000008c4       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+
+.stab           0x00000000       0x3c
+ .stab          0x00000000       0x24 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+ .stab          0x00000024       0x18 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+                                 0x24 (size before relaxing)
+
+.stabstr        0x00000000       0x76
+ .stabstr       0x00000000       0x76 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
