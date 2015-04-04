@@ -42,12 +42,18 @@ int main(void)
     //SSD1305::Instance().write((void*)&ssdp);
 
     Display disp = Display();
-    Bitmap b = Bitmap(edit_note);
-    disp.drawBitmap(b);
+    //Bitmap b = Bitmap(edit_note);
+    //disp.drawBitmap(b);
+    disp.drawFilledRectangle(0, 0, 31, 31);
+    //disp.drawLine(0, 0, 0, 31);
+    //disp.drawPixel(0, 0);
+    //disp.drawPixel(127, 0);
+    //disp.drawPixel(127, 31);
+    //disp.drawPixel(0, 31);
     //disp.drawText(0, 0, LARGE_FONT, "123456789!");
     disp.paint();
 
-    Reporting::Instance().reportCode(d, DISPLAY, 0xAAAA5555);
+    Reporting::Instance().reportCode(d, LIGHTS, 0xAAAA5555);
     
 
 

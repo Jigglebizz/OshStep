@@ -19,13 +19,15 @@ SSD1305Params::~SSD1305Params() {
 }
 
 void SSD1305Params::setPixel(int x, int y, int val) {
-    if (x >= 0 && x <= width && y >= 0 && y < height) {
+    if (x >= 0 && x < width && y >= 0 && y < height) {
         #ifdef SSD1305_ORIENTATION
+            int max_x = width - 1;
+            int max_y = height - 1;
             if (val == PIXEL_ON)
-                buffer[width - x + (width * ((height - 1 - y) / pix_in_page))] |= 
+                buffer[max_x - x + (width * ((max_y - y) / pix_in_page))] |= 
                     0x1 << ((pix_in_page - 1) - ( y % pix_in_page));
             else
-                buffer[width - x + (width * ((height - 1 - y) / pix_in_page))] &=
+                buffer[max_x - x + (width * ((max_y - y) / pix_in_page))] &=
                    ~(0x1 << ((pix_in_page - 1) - (y % pix_in_page))); 
         #else
             if (val == PIXEL_ON)

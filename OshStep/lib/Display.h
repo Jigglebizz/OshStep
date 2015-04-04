@@ -23,6 +23,12 @@ class Display {
     ~Display();
     void drawBitmap(Bitmap&);
     void drawText(uint8_t, uint8_t, Font, const char*);
+    void drawLine(int, int, int, int);
+    void drawRectangle(int, int, int, int);
+    void drawFilledRectangle(int, int, int, int);
+    void drawCircle(int, int, int);
+    void drawFilledCircle(int, int, int);
+    void drawPixel(int, int);
     void paint();
 };
 

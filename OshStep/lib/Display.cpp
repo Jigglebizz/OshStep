@@ -9,6 +9,8 @@
 #include "driver/SSD1305.h"
 #include "../assets/images.h"
 
+#include <math.h>
+
 Display::Display() {
     ssdp = SSD1305Params();
     ssdp.clear(PIXEL_OFF);
@@ -59,6 +61,86 @@ void Display::drawText( uint8_t x, uint8_t y, Font f, const char* str) {
         bmp.draw(ssdp);
         x += glyph_w;
     }
+}
+
+/*
+ *  Draws line using Bresenham's line drawing algorithm.
+ */
+void Display::drawLine(int x1, int y1, int x2, int y2) {
+    int dy = y2 - y1;
+    int dx  = x2 - x1;
+    
+    if (dx == 0) {
+        if (y2 < y1) {
+            int tmp = y1;
+            y1 = y2;
+            y2 = tmp;
+        }
+        for (int y  = y1; y < y2 + 1; y++) {
+            ssdp.setPixel(x1, y, 1);
+        }
+    } else {
+        float m = (float)dy / dx;
+        float adjust = (m >= 0) ? 1 : -1;
+        float offset = 0;
+        float threshold = 0.5;
+        
+        if (m <= 1 and m >= -1) {
+            float delta = fabs(m);
+            int y = y1;
+            if (x2 < x1) {
+                int tmp = x1;
+                x1 = x2;
+                x2 = tmp;
+                y = y2;
+            }
+            for (int x = x1; x < x2 + 1; x++) {
+                ssdp.setPixel(x, y, 1);
+                offset += delta;
+                if (offset >= threshold) {
+                    y += adjust;
+                    threshold += 1;
+                }
+            }
+        }
+        else {
+            float delta = fabs(m);
+            int x = x1;
+            if (y2 < y1) {
+                int tmp = y1;
+                y1 = y2;
+                y2 = tmp;
+                x = x2;
+            }
+            for (int y = y1; y < y2 + 1; y++) {
+                ssdp.setPixel(x, y, 1);
+                offset += delta;
+                if (offset >= threshold) {
+                    x += adjust;
+                    threshold += 1;
+                }
+            }
+        }
+    }
+}
+
+void Display::drawRectangle(int x0, int y0, int x1, int y1) {
+    this->drawLine(x0, y0, x0, y1);
+    this->drawLine(x0, y1, x1, y1);
+    this->drawLine(x1, y1, x1, y0);
+    this->drawLine(x1, y0, x0, y0);
+}
+
+void Display::drawFilledRectangle(int x0, int y0, int x1, int y1) {
+    for (int y = y0; y < y1; y++) {
+        for (int x = x0; x < x1; x++) {
+            ssdp.setPixel(x, y, PIXEL_ON);
+        }
+    }
+}
+
+void Display::drawPixel(int x, int y) {
+    ssdp.setPixel(x, y, PIXEL_ON);
 }
 
 void Display::paint() {
