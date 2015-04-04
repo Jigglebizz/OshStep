@@ -47,7 +47,7 @@ int main(void)
     //disp.drawText(0, 0, LARGE_FONT, "123456789!");
     disp.paint();
 
-    Reporting::Instance().reportCode(d, LIGHTS, 0xAAAA5555);
+    Reporting::Instance().reportCode(d, DISPLAY, 0xAAAA5555);
     
 
 
