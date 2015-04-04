@@ -1,3 +1,4 @@
+#OSHStep Open Source Arduino-Based Step Sequencer
 ## A Note on Development and Collaboration
 This project has been in development for quite a while. It started in the Arduino IDE, met its limits, and moved on to Atmel Studio 6.2. There have been a lot of challenges getting this to work in Atmel Studio, as I'm very new to embedded system development and C++ in general. My expertise is in languages like Java and C#. This project, if anything, has proven to me how much a language can matter. I always thought that C++ was C syntax with Java-like features. Hooboy, the Stack Overflow community would eat me alive.
 
@@ -11,7 +12,7 @@ In order to bypass the limitations of a static grid, you are either forced to us
 The OSHStep is entirely open-source - The hardware design files are created in DipTrace, a (sort of) free software suite for PCB CAD work. Our platform is the Arduino Due - part of the Arduino suite of OSH prototyping boards. The total cost of materials, at present, including the Arduino Due, PCB, and 128x32 OLED display falls just short of $150. That's nearly 10% the cost of the "professional grade" sequencers!
 
 ## Features
-# Implemented
+### Implemented
 * OLED Display Integration
 * Graphics Library for Display
   * Bitmap Support
@@ -22,7 +23,7 @@ The OSHStep is entirely open-source - The hardware design files are created in D
 * Shift Register drivers
 * Support for 24 RG indication LED's
 
-# TODO
+### TODO
 * MIDI/UART Drivers
 * Encoder Drivers
 * Touch-Sensor Drivers
