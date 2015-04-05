@@ -33,5 +33,6 @@ void pinEnablePullup(Port, int);
 void pinDisablePullup(Port, int);
 void pinSetOutput(Port, int, int);
 int  pinGetOutputStatus(Port, int);
+int  pinReadInput(Port, int);
 
 #endif /* DUEREV1_H_ */

@@ -27,6 +27,7 @@ void Display::drawBitmap( Bitmap &bmp) {
 
 void Display::drawText( uint8_t x, uint8_t y, Font f, const char* str) {
     int glyph_w, glyph_h;
+    uint8_t x_origin = x;
     const unsigned char* bitmap_raw;
     
     if (f == LARGE_FONT) {
@@ -54,12 +55,18 @@ void Display::drawText( uint8_t x, uint8_t y, Font f, const char* str) {
         else if (str[i] >= 97 && str[i] <= 122) glyphPos = str[i] - 83; // a-z
         else                                    glyphPos = 12;          // ?
         
-        bmp.setRectangle(   (glyphPos * glyph_w) % glyph_map_w, 
-                            (((glyphPos * glyph_w) / glyph_map_w) * glyph_h), 
-                             glyph_w, glyph_h);
-        bmp.moveTo(x, y);
-        bmp.draw(ssdp);
-        x += glyph_w;
+        // If this is a newline
+        if (str[i] == 10) { 
+            x = x_origin;
+            y += glyph_h;
+        } else {
+            bmp.setRectangle(   (glyphPos * glyph_w) % glyph_map_w,
+            (((glyphPos * glyph_w) / glyph_map_w) * glyph_h),
+            glyph_w, glyph_h);
+            bmp.moveTo(x, y);
+            bmp.draw(ssdp);
+            x += glyph_w;
+        }
     }
 }
 

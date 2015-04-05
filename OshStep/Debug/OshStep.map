@@ -21,7 +21,7 @@ c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-too
 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
                               c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
-                              lib/driver/SSD1305.o (malloc)
+                              lib/driver/Encoders.o (malloc)
 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
                               lib/Display.o (memcpy)
 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memset.o)
@@ -37,7 +37,7 @@ c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-too
 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
                               c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o) (_kill_r)
 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sprintf.o)
-                              lib/Reporting.o (sprintf)
+                              lib/driver/Encoders.o (sprintf)
 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
                               c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sprintf.o) (_svfprintf_r)
 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
@@ -407,8 +407,6 @@ Discarded input sections
  .bss           0x00000000        0x0 DueRev1.o
  .text._Z11setupTimer0lPFvvE
                 0x00000000       0x38 DueRev1.o
- .text._Z15pinEnablePullup4Porti
-                0x00000000       0x48 DueRev1.o
  .text._Z18pinGetOutputStatus4Porti
                 0x00000000       0x3c DueRev1.o
  .debug_macro   0x00000000       0x16 DueRev1.o
@@ -518,6 +516,8 @@ Discarded input sections
                 0x00000000      0x15c lib/Display.o
  .text._ZN7Display13drawRectangleEiiii
                 0x00000000       0x44 lib/Display.o
+ .text._ZN7Display19drawFilledRectangleEiiii
+                0x00000000       0x34 lib/Display.o
  .text._ZN7Display9drawPixelEii
                 0x00000000       0x10 lib/Display.o
  .debug_macro   0x00000000      0x87a lib/Display.o
@@ -606,28 +606,19 @@ Discarded input sections
  .group         0x00000000        0x8 lib/driver/Encoders.o
  .group         0x00000000        0x8 lib/driver/Encoders.o
  .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
+ .group         0x00000000        0x8 lib/driver/Encoders.o
  .text          0x00000000        0x0 lib/driver/Encoders.o
  .data          0x00000000        0x0 lib/driver/Encoders.o
  .bss           0x00000000        0x0 lib/driver/Encoders.o
- .text._ZN8Encoders4openEPv
-                0x00000000        0x4 lib/driver/Encoders.o
- .text._ZN8Encoders5closeEv
-                0x00000000        0x4 lib/driver/Encoders.o
- .text._ZN8Encoders5writeEPv
-                0x00000000        0x4 lib/driver/Encoders.o
- .text._ZN8Encoders4readEv
-                0x00000000        0x4 lib/driver/Encoders.o
- .text._ZN8Encoders5ioctlEiPv
-                0x00000000        0x4 lib/driver/Encoders.o
- .rodata._ZTV8Encoders
-                0x00000000       0x20 lib/driver/Encoders.o
- .debug_info    0x00000000      0x5eb lib/driver/Encoders.o
- .debug_abbrev  0x00000000      0x1ca lib/driver/Encoders.o
- .debug_loc     0x00000000       0xa5 lib/driver/Encoders.o
- .debug_aranges
-                0x00000000       0x40 lib/driver/Encoders.o
- .debug_ranges  0x00000000       0x30 lib/driver/Encoders.o
- .debug_macro   0x00000000      0x111 lib/driver/Encoders.o
  .debug_macro   0x00000000      0x87a lib/driver/Encoders.o
  .debug_macro   0x00000000       0x46 lib/driver/Encoders.o
  .debug_macro   0x00000000       0x1c lib/driver/Encoders.o
@@ -645,12 +636,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x43 lib/driver/Encoders.o
  .debug_macro   0x00000000      0x180 lib/driver/Encoders.o
  .debug_macro   0x00000000       0x22 lib/driver/Encoders.o
- .debug_line    0x00000000      0x35a lib/driver/Encoders.o
- .debug_str     0x00000000     0x497d lib/driver/Encoders.o
- .comment       0x00000000       0x5c lib/driver/Encoders.o
- .ARM.attributes
-                0x00000000       0x33 lib/driver/Encoders.o
- .debug_frame   0x00000000       0x60 lib/driver/Encoders.o
  .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
  .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
  .group         0x00000000        0x8 lib/driver/parameter/SSD1305Params.o
@@ -727,6 +712,9 @@ Discarded input sections
  .debug_macro   0x00000000       0xa3 lib/driver/ShiftRegisters.o
  .debug_macro   0x00000000       0x52 lib/driver/ShiftRegisters.o
  .debug_macro   0x00000000       0x16 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x22 lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0xbd lib/driver/ShiftRegisters.o
+ .debug_macro   0x00000000       0x35 lib/driver/ShiftRegisters.o
  .debug_macro   0x00000000       0x16 lib/driver/ShiftRegisters.o
  .debug_macro   0x00000000      0x180 lib/driver/ShiftRegisters.o
  .debug_macro   0x00000000       0x22 lib/driver/ShiftRegisters.o
@@ -1014,9 +1002,16 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 lib/Reporting.o
  .debug_macro   0x00000000       0x16 lib/Reporting.o
  .debug_macro   0x00000000       0x10 lib/Reporting.o
+ .debug_macro   0x00000000       0x1c lib/Reporting.o
  .debug_macro   0x00000000       0x35 lib/Reporting.o
+ .debug_macro   0x00000000       0x10 lib/Reporting.o
+ .debug_macro   0x00000000       0x10 lib/Reporting.o
  .debug_macro   0x00000000       0x22 lib/Reporting.o
  .debug_macro   0x00000000       0xbd lib/Reporting.o
+ .debug_macro   0x00000000       0x16 lib/Reporting.o
+ .debug_macro   0x00000000      0x14a lib/Reporting.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
@@ -1116,6 +1111,10 @@ Discarded input sections
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
+ .bss._ZZN9Reporting8InstanceEvE8instance
+                0x00000000        0x4 main.o
+ .bss._ZGVZN9Reporting8InstanceEvE8instance
+                0x00000000        0x4 main.o
  .debug_macro   0x00000000      0x87a main.o
  .debug_macro   0x00000000       0x46 main.o
  .debug_macro   0x00000000      0x606 main.o
@@ -1402,7 +1401,7 @@ LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gn
                 0x00000400                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:0x400
                 0x00000200                HEAP_SIZE = DEFINED (HEAP_SIZE)?HEAP_SIZE:0x200
 
-.text           0x00080000     0x1b64
+.text           0x00080000     0x1eb8
                 0x00080000                . = ALIGN (0x4)
                 0x00080000                _sfixed = .
  *(.vectors .vectors.*)
@@ -1473,290 +1472,332 @@ LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gn
                 0x00080244       0x10 DueRev1.o
                 0x00080244                TC0_Handler
  .text._Z10pinSetMode4Porti4Mode
-                0x00080254      0x104 DueRev1.o
+                0x00080254      0x144 DueRev1.o
                 0x00080254                pinSetMode(Port, int, Mode)
+ .text._Z15pinEnablePullup4Porti
+                0x00080398       0x48 DueRev1.o
+                0x00080398                pinEnablePullup(Port, int)
  .text._Z16pinDisablePullup4Porti
-                0x00080358       0x48 DueRev1.o
-                0x00080358                pinDisablePullup(Port, int)
+                0x000803e0       0x48 DueRev1.o
+                0x000803e0                pinDisablePullup(Port, int)
  .text._Z12pinSetOutput4Portii
-                0x000803a0       0x84 DueRev1.o
-                0x000803a0                pinSetOutput(Port, int, int)
+                0x00080428       0x84 DueRev1.o
+                0x00080428                pinSetOutput(Port, int, int)
+ .text._Z12pinReadInput4Porti
+                0x000804ac       0x3c DueRev1.o
+                0x000804ac                pinReadInput(Port, int)
  .text._ZN7SSD13058InstanceEv
-                0x00080424       0x38 lib/Display.o
-                0x00080424                SSD1305::Instance()
+                0x000804e8       0x38 lib/Display.o
+                0x000804e8                SSD1305::Instance()
  .text._ZN7DisplayC2Ev
-                0x0008045c       0x54 lib/Display.o
-                0x0008045c                Display::Display()
-                0x0008045c                Display::Display()
+                0x00080520       0x54 lib/Display.o
+                0x00080520                Display::Display()
+                0x00080520                Display::Display()
  .text._ZN7DisplayD2Ev
-                0x000804b0       0x20 lib/Display.o
-                0x000804b0                Display::~Display()
-                0x000804b0                Display::~Display()
+                0x00080574       0x20 lib/Display.o
+                0x00080574                Display::~Display()
+                0x00080574                Display::~Display()
  .text._ZN7Display8drawTextEhh4FontPKc
-                0x000804d0       0xd4 lib/Display.o
-                0x000804d0                Display::drawText(unsigned char, unsigned char, Font, char const*)
- .text._ZN7Display19drawFilledRectangleEiiii
-                0x000805a4       0x34 lib/Display.o
-                0x000805a4                Display::drawFilledRectangle(int, int, int, int)
+                0x00080594       0xe8 lib/Display.o
+                0x00080594                Display::drawText(unsigned char, unsigned char, Font, char const*)
  .text._ZN7Display5paintEv
-                0x000805d8       0x18 lib/Display.o
-                0x000805d8                Display::paint()
+                0x0008067c       0x18 lib/Display.o
+                0x0008067c                Display::paint()
  .text._ZN6BitmapC2EPKh
-                0x000805f0       0x24 lib/display/Bitmap.o
-                0x000805f0                Bitmap::Bitmap(unsigned char const*)
-                0x000805f0                Bitmap::Bitmap(unsigned char const*)
+                0x00080694       0x24 lib/display/Bitmap.o
+                0x00080694                Bitmap::Bitmap(unsigned char const*)
+                0x00080694                Bitmap::Bitmap(unsigned char const*)
  .text._ZN6Bitmap6moveToEhh
-                0x00080614        0x6 lib/display/Bitmap.o
-                0x00080614                Bitmap::moveTo(unsigned char, unsigned char)
+                0x000806b8        0x6 lib/display/Bitmap.o
+                0x000806b8                Bitmap::moveTo(unsigned char, unsigned char)
  .text._ZN6Bitmap12setRectangleEhhhh
-                0x0008061a        0xe lib/display/Bitmap.o
-                0x0008061a                Bitmap::setRectangle(unsigned char, unsigned char, unsigned char, unsigned char)
+                0x000806be        0xe lib/display/Bitmap.o
+                0x000806be                Bitmap::setRectangle(unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN6Bitmap4drawER13SSD1305Params
-                0x00080628       0x68 lib/display/Bitmap.o
-                0x00080628                Bitmap::draw(SSD1305Params&)
+                0x000806cc       0x68 lib/display/Bitmap.o
+                0x000806cc                Bitmap::draw(SSD1305Params&)
+ .text._ZN8Encoders5closeEv
+                0x00080734        0x4 lib/driver/Encoders.o
+                0x00080734                Encoders::close()
+ .text._ZN8Encoders5writeEPv
+                0x00080738        0x4 lib/driver/Encoders.o
+                0x00080738                Encoders::write(void*)
+ .text._ZN8Encoders4readEv
+                0x0008073c        0x4 lib/driver/Encoders.o
+                0x0008073c                Encoders::read()
+ .text._ZN8Encoders5ioctlEiPv
+                0x00080740        0x4 lib/driver/Encoders.o
+                0x00080740                Encoders::ioctl(int, void*)
+ .text._ZN8Encoders4openEPv
+                0x00080744      0x164 lib/driver/Encoders.o
+                0x00080744                Encoders::open(void*)
  .text._ZN13SSD1305ParamsC2Ev
-                0x00080690        0x2 lib/driver/parameter/SSD1305Params.o
-                0x00080690                SSD1305Params::SSD1305Params()
-                0x00080690                SSD1305Params::SSD1305Params()
+                0x000808a8        0x2 lib/driver/parameter/SSD1305Params.o
+                0x000808a8                SSD1305Params::SSD1305Params()
+                0x000808a8                SSD1305Params::SSD1305Params()
  .text._ZN13SSD1305ParamsD2Ev
-                0x00080692        0x2 lib/driver/parameter/SSD1305Params.o
-                0x00080692                SSD1305Params::~SSD1305Params()
-                0x00080692                SSD1305Params::~SSD1305Params()
+                0x000808aa        0x2 lib/driver/parameter/SSD1305Params.o
+                0x000808aa                SSD1305Params::~SSD1305Params()
+                0x000808aa                SSD1305Params::~SSD1305Params()
  .text._ZN13SSD1305Params8setPixelEiii
-                0x00080694       0x3e lib/driver/parameter/SSD1305Params.o
-                0x00080694                SSD1305Params::setPixel(int, int, int)
+                0x000808ac       0x3e lib/driver/parameter/SSD1305Params.o
+                0x000808ac                SSD1305Params::setPixel(int, int, int)
  .text._ZN13SSD1305Params5clearEi
-                0x000806d2       0x16 lib/driver/parameter/SSD1305Params.o
-                0x000806d2                SSD1305Params::clear(int)
+                0x000808ea       0x16 lib/driver/parameter/SSD1305Params.o
+                0x000808ea                SSD1305Params::clear(int)
  .text._ZN14ShiftRegisters5closeEv
-                0x000806e8        0x4 lib/driver/ShiftRegisters.o
-                0x000806e8                ShiftRegisters::close()
+                0x00080900        0x4 lib/driver/ShiftRegisters.o
+                0x00080900                ShiftRegisters::close()
  .text._ZN14ShiftRegisters4readEv
-                0x000806ec        0x4 lib/driver/ShiftRegisters.o
-                0x000806ec                ShiftRegisters::read()
+                0x00080904        0x4 lib/driver/ShiftRegisters.o
+                0x00080904                ShiftRegisters::read()
  .text._ZN14ShiftRegisters5ioctlEiPv
-                0x000806f0        0x4 lib/driver/ShiftRegisters.o
-                0x000806f0                ShiftRegisters::ioctl(int, void*)
+                0x00080908        0x4 lib/driver/ShiftRegisters.o
+                0x00080908                ShiftRegisters::ioctl(int, void*)
  .text._ZN14ShiftRegisters4openEPv
-                0x000806f4       0x9c lib/driver/ShiftRegisters.o
-                0x000806f4                ShiftRegisters::open(void*)
+                0x0008090c       0x9c lib/driver/ShiftRegisters.o
+                0x0008090c                ShiftRegisters::open(void*)
  .text._ZN14ShiftRegisters5writeEPv
-                0x00080790       0xa8 lib/driver/ShiftRegisters.o
-                0x00080790                ShiftRegisters::write(void*)
+                0x000809a8       0xa8 lib/driver/ShiftRegisters.o
+                0x000809a8                ShiftRegisters::write(void*)
  .text._ZN3SPI5closeEv
-                0x00080838       0x1c lib/driver/SPI.o
-                0x00080838                SPI::close()
+                0x00080a50       0x1c lib/driver/SPI.o
+                0x00080a50                SPI::close()
  .text._ZN3SPI4readEv
-                0x00080854        0x4 lib/driver/SPI.o
-                0x00080854                SPI::read()
+                0x00080a6c        0x4 lib/driver/SPI.o
+                0x00080a6c                SPI::read()
  .text._ZN3SPI4openEPv
-                0x00080858       0x7c lib/driver/SPI.o
-                0x00080858                SPI::open(void*)
+                0x00080a70       0x7c lib/driver/SPI.o
+                0x00080a70                SPI::open(void*)
  .text._ZN3SPI5ioctlEiPv
-                0x000808d4       0x14 lib/driver/SPI.o
-                0x000808d4                SPI::ioctl(int, void*)
+                0x00080aec       0x14 lib/driver/SPI.o
+                0x00080aec                SPI::ioctl(int, void*)
  .text._ZN3SPI5writeEPv
-                0x000808e8       0x48 lib/driver/SPI.o
-                0x000808e8                SPI::write(void*)
+                0x00080b00       0x48 lib/driver/SPI.o
+                0x00080b00                SPI::write(void*)
  .text._ZN7SSD13055closeEv
-                0x00080930        0x4 lib/driver/SSD1305.o
-                0x00080930                SSD1305::close()
+                0x00080b48        0x4 lib/driver/SSD1305.o
+                0x00080b48                SSD1305::close()
  .text._ZN7SSD13054readEv
-                0x00080934        0x4 lib/driver/SSD1305.o
-                0x00080934                SSD1305::read()
+                0x00080b4c        0x4 lib/driver/SSD1305.o
+                0x00080b4c                SSD1305::read()
  .text._ZN7SSD13055ioctlEiPv
-                0x00080938        0x4 lib/driver/SSD1305.o
-                0x00080938                SSD1305::ioctl(int, void*)
+                0x00080b50        0x4 lib/driver/SSD1305.o
+                0x00080b50                SSD1305::ioctl(int, void*)
  .text._ZN3SPI8InstanceEv
-                0x0008093c       0x3c lib/driver/SSD1305.o
-                0x0008093c                SPI::Instance()
+                0x00080b54       0x3c lib/driver/SSD1305.o
+                0x00080b54                SPI::Instance()
  .text._ZN7SSD13054openEPv
-                0x00080978      0x2a0 lib/driver/SSD1305.o
-                0x00080978                SSD1305::open(void*)
+                0x00080b90      0x2a0 lib/driver/SSD1305.o
+                0x00080b90                SSD1305::open(void*)
  .text._ZN7SSD13055writeEPv
-                0x00080c18       0x9c lib/driver/SSD1305.o
-                0x00080c18                SSD1305::write(void*)
+                0x00080e30       0x9c lib/driver/SSD1305.o
+                0x00080e30                SSD1305::write(void*)
  .text._ZN14ShiftRegisters8InstanceEv
-                0x00080cb4       0x38 lib/Reporting.o
-                0x00080cb4                ShiftRegisters::Instance()
+                0x00080ecc       0x38 lib/Reporting.o
+                0x00080ecc                ShiftRegisters::Instance()
  .text._ZN9Reporting10reportCodeE8Priority17VisualStateMethodm
-                0x00080cec       0x8c lib/Reporting.o
-                0x00080cec                Reporting::reportCode(Priority, VisualStateMethod, unsigned long)
+                0x00080f04       0x8c lib/Reporting.o
+                0x00080f04                Reporting::reportCode(Priority, VisualStateMethod, unsigned long)
+ .text._ZN9Reporting10reportTextE8PriorityPKc
+                0x00080f90       0x54 lib/Reporting.o
+                0x00080f90                Reporting::reportText(Priority, char const*)
  .text._ZN9Reporting8InstanceEv
-                0x00080d78       0x3c main.o
-                0x00080d78                Reporting::Instance()
+                0x00080fe4       0x3c main.o
+                0x00080fe4                Reporting::Instance()
  .text.startup.main
-                0x00080db4       0x60 main.o
-                0x00080db4                main
- .text._ZdlPv   0x00080e14        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
-                0x00080e14                operator delete(void*)
+                0x00081020       0xd4 main.o
+                0x00081020                main
+ .text._ZdlPv   0x000810f4        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+                0x000810f4                operator delete(void*)
  .text.__cxa_guard_acquire
-                0x00080e1c       0x1c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
-                0x00080e1c                __cxa_guard_acquire
+                0x000810fc       0x1c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+                0x000810fc                __cxa_guard_acquire
  .text.__cxa_guard_release
-                0x00080e38        0x6 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
-                0x00080e38                __cxa_guard_release
- .text.abort    0x00080e3e        0xe c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
-                0x00080e3e                abort
+                0x00081118        0x6 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+                0x00081118                __cxa_guard_release
+ .text.abort    0x0008111e        0xe c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+                0x0008111e                abort
  .text.__libc_init_array
-                0x00080e4c       0x4c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
-                0x00080e4c                __libc_init_array
- .text.malloc   0x00080e98       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
-                0x00080e98                malloc
- .text.free     0x00080ea8       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
-                0x00080ea8                free
- .text.memcpy   0x00080eb8       0x12 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
-                0x00080eb8                memcpy
- *fill*         0x00080eca        0x2 
- .text._free_r  0x00080ecc       0x88 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
-                0x00080ecc                _free_r
+                0x0008112c       0x4c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+                0x0008112c                __libc_init_array
+ .text.malloc   0x00081178       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+                0x00081178                malloc
+ .text.free     0x00081188       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+                0x00081188                free
+ .text.memcpy   0x00081198       0x12 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+                0x00081198                memcpy
+ *fill*         0x000811aa        0x2 
+ .text._free_r  0x000811ac       0x88 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+                0x000811ac                _free_r
  .text._malloc_r
-                0x00080f54       0xa8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
-                0x00080f54                _malloc_r
- .text._sbrk_r  0x00080ffc       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
-                0x00080ffc                _sbrk_r
+                0x00081234       0xa8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+                0x00081234                _malloc_r
+ .text._sbrk_r  0x000812dc       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+                0x000812dc                _sbrk_r
  .text._raise_r
-                0x0008101c       0x50 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
-                0x0008101c                _raise_r
- .text.raise    0x0008106c       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
-                0x0008106c                raise
- .text._kill_r  0x0008107c       0x24 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
-                0x0008107c                _kill_r
+                0x000812fc       0x50 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+                0x000812fc                _raise_r
+ .text.raise    0x0008134c       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+                0x0008134c                raise
+ .text._kill_r  0x0008135c       0x24 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+                0x0008135c                _kill_r
  .text._getpid_r
-                0x000810a0        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
-                0x000810a0                _getpid_r
- .text.sprintf  0x000810a4       0x48 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sprintf.o)
-                0x000810a4                siprintf
-                0x000810a4                sprintf
+                0x00081380        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+                0x00081380                _getpid_r
+ .text.sprintf  0x00081384       0x48 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sprintf.o)
+                0x00081384                siprintf
+                0x00081384                sprintf
  .text.__ssputs_r
-                0x000810ec       0xb8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
-                0x000810ec                __ssputs_r
+                0x000813cc       0xb8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
+                0x000813cc                __ssputs_r
  .text._svfprintf_r
-                0x000811a4      0x1d8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
-                0x000811a4                _svfiprintf_r
-                0x000811a4                _svfprintf_r
+                0x00081484      0x1d8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
+                0x00081484                _svfiprintf_r
+                0x00081484                _svfprintf_r
  .text._printf_common
-                0x0008137c       0xe4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
-                0x0008137c                _printf_common
+                0x0008165c       0xe4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
+                0x0008165c                _printf_common
  .text._printf_i
-                0x00081460      0x228 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
-                0x00081460                _printf_i
- .text.memchr   0x00081688       0x1c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memchr-stub.o)
-                0x00081688                memchr
- .text.memmove  0x000816a4       0x36 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memmove.o)
-                0x000816a4                memmove
+                0x00081740      0x228 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
+                0x00081740                _printf_i
+ .text.memchr   0x00081968       0x1c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memchr-stub.o)
+                0x00081968                memchr
+ .text.memmove  0x00081984       0x36 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memmove.o)
+                0x00081984                memmove
  .text._realloc_r
-                0x000816da       0x4c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-reallocr.o)
-                0x000816da                _realloc_r
- .text.strlen   0x00081726       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
-                0x00081726                strlen
+                0x000819ba       0x4c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-reallocr.o)
+                0x000819ba                _realloc_r
+ .text.strlen   0x00081a06       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
+                0x00081a06                strlen
  .text._malloc_usable_size_r
-                0x00081736       0x12 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-msizer.o)
-                0x00081736                _malloc_usable_size_r
- .text._getpid  0x00081748       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
-                0x00081748                _getpid
- .text._kill    0x00081758       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
-                0x00081758                _kill
- .text._sbrk    0x00081768       0x34 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
-                0x00081768                _sbrk
- .text._exit    0x0008179c        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
-                0x0008179c                _exit
+                0x00081a16       0x12 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-msizer.o)
+                0x00081a16                _malloc_usable_size_r
+ .text._getpid  0x00081a28       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+                0x00081a28                _getpid
+ .text._kill    0x00081a38       0x10 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+                0x00081a38                _kill
+ .text._sbrk    0x00081a48       0x34 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+                0x00081a48                _sbrk
+ .text._exit    0x00081a7c        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+                0x00081a7c                _exit
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
  .rodata._ZL10font_small
-                0x000817a0      0x142 lib/Display.o
+                0x00081a80      0x142 lib/Display.o
  .rodata._ZL10font_large
-                0x000818e2      0x1c2 lib/Display.o
- *fill*         0x00081aa4        0x4 
+                0x00081bc2      0x1c2 lib/Display.o
+ .rodata.str1.1
+                0x00081d84       0x19 lib/driver/Encoders.o
+ *fill*         0x00081d9d        0x3 
+ .rodata._ZN8Encoders5bPinsE
+                0x00081da0       0x10 lib/driver/Encoders.o
+                0x00081da0                Encoders::bPins
+ .rodata._ZN8Encoders6aPortsE
+                0x00081db0        0x4 lib/driver/Encoders.o
+                0x00081db0                Encoders::aPorts
+ *fill*         0x00081db4        0x4 
+ .rodata._ZTV8Encoders
+                0x00081db8       0x20 lib/driver/Encoders.o
+                0x00081db8                vtable for Encoders
+ .rodata._ZN8Encoders6bPortsE
+                0x00081dd8        0x4 lib/driver/Encoders.o
+                0x00081dd8                Encoders::bPorts
+ .rodata._ZN8Encoders5aPinsE
+                0x00081ddc       0x10 lib/driver/Encoders.o
+                0x00081ddc                Encoders::aPins
+ *fill*         0x00081dec        0x4 
  .rodata._ZTV14ShiftRegisters
-                0x00081aa8       0x20 lib/driver/ShiftRegisters.o
-                0x00081aa8                vtable for ShiftRegisters
+                0x00081df0       0x20 lib/driver/ShiftRegisters.o
+                0x00081df0                vtable for ShiftRegisters
  .rodata._ZTV3SPI
-                0x00081ac8       0x20 lib/driver/SPI.o
-                0x00081ac8                vtable for SPI
+                0x00081e10       0x20 lib/driver/SPI.o
+                0x00081e10                vtable for SPI
  .rodata._ZTV7SSD1305
-                0x00081ae8       0x20 lib/driver/SSD1305.o
-                0x00081ae8                vtable for SSD1305
+                0x00081e30       0x20 lib/driver/SSD1305.o
+                0x00081e30                vtable for SSD1305
  .rodata.str1.1
-                0x00081b08        0x5 lib/Reporting.o
+                0x00081e50        0x5 lib/Reporting.o
  .rodata.str1.1
-                0x00081b0d        0x2 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+                0x00081e55        0xd main.o
  .rodata.str1.1
-                0x00081b0f       0x11 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
+                0x00081e62        0x2 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
  .rodata.str1.1
-                0x00081b20       0x22 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
+                0x00081e64       0x11 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
+ .rodata.str1.1
+                0x00081e75       0x22 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00081b44                . = ALIGN (0x4)
- *fill*         0x00081b42        0x2 
+                0x00081e98                . = ALIGN (0x4)
+ *fill*         0x00081e97        0x1 
  *(.init)
- .init          0x00081b44        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
-                0x00081b44                _init
- .init          0x00081b48        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
-                0x00081b50                . = ALIGN (0x4)
-                0x00081b50                __preinit_array_start = .
+ .init          0x00081e98        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+                0x00081e98                _init
+ .init          0x00081e9c        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+                0x00081ea4                . = ALIGN (0x4)
+                0x00081ea4                __preinit_array_start = .
  *(.preinit_array)
-                0x00081b50                __preinit_array_end = .
-                0x00081b50                . = ALIGN (0x4)
-                0x00081b50                __init_array_start = .
+                0x00081ea4                __preinit_array_end = .
+                0x00081ea4                . = ALIGN (0x4)
+                0x00081ea4                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00081b50        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
-                0x00081b54                __init_array_end = .
-                0x00081b54                . = ALIGN (0x4)
+ .init_array    0x00081ea4        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+                0x00081ea8                __init_array_end = .
+                0x00081ea8                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00081b54                . = ALIGN (0x4)
+                0x00081ea8                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00081b54        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
-                0x00081b54                _fini
- .fini          0x00081b58        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
-                0x00081b60                . = ALIGN (0x4)
-                0x00081b60                __fini_array_start = .
+ .fini          0x00081ea8        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crti.o
+                0x00081ea8                _fini
+ .fini          0x00081eac        0x8 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+                0x00081eb4                . = ALIGN (0x4)
+                0x00081eb4                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00081b60        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+ .fini_array    0x00081eb4        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00081b64                __fini_array_end = .
+                0x00081eb8                __fini_array_end = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00081b64                . = ALIGN (0x4)
-                0x00081b64                _efixed = .
-                0x00081b64                PROVIDE (__exidx_start, .)
+                0x00081eb8                . = ALIGN (0x4)
+                0x00081eb8                _efixed = .
+                0x00081eb8                PROVIDE (__exidx_start, .)
 
-.vfp11_veneer   0x00081b64        0x0
+.vfp11_veneer   0x00081eb8        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00081b64        0x0
+.v4_bx          0x00081eb8        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00081b64        0x0
+.iplt           0x00081eb8        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
 
-.eh_frame       0x00081b64        0x0
- .eh_frame      0x00081b64        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+.eh_frame       0x00081eb8        0x0
+ .eh_frame      0x00081eb8        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
 
-.rel.dyn        0x00081b64        0x0
+.rel.dyn        0x00081eb8        0x0
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
 
-.jcr            0x00081b64        0x0
- .jcr           0x00081b64        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
+.jcr            0x00081eb8        0x0
+ .jcr           0x00081eb8        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
 
-.igot.plt       0x00081b64        0x0
+.igot.plt       0x00081eb8        0x0
  .igot.plt      0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtbegin.o
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00081b64                PROVIDE (__exidx_end, .)
-                0x00081b64                . = ALIGN (0x4)
-                0x00081b64                _etext = .
+                0x00081eb8                PROVIDE (__exidx_end, .)
+                0x00081eb8                . = ALIGN (0x4)
+                0x00081eb8                _etext = .
 
-.relocate       0x20000000       0x68 load address 0x00081b64
+.relocate       0x20000000       0x68 load address 0x00081eb8
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -1772,7 +1813,7 @@ LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gn
                 0x20000068                . = ALIGN (0x4)
                 0x20000068                _erelocate = .
 
-.bss            0x20000068       0x5c load address 0x00081bcc
+.bss            0x20000068       0x7c load address 0x00081f20
                 0x20000068                . = ALIGN (0x4)
                 0x20000068                _sbss = .
                 0x20000068                _szero = .
@@ -1787,57 +1828,63 @@ LOAD c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gn
  .bss._ZGVZN7SSD13058InstanceEvE8instance
                 0x2000008c        0x4 lib/Display.o
                 0x2000008c                guard variable for SSD1305::Instance()::instance
- .bss._ZZN3SPI8InstanceEvE8instance
-                0x20000090       0x10 lib/driver/SSD1305.o
-                0x20000090                SPI::Instance()::instance
- .bss._ZGVZN3SPI8InstanceEvE8instance
-                0x200000a0        0x4 lib/driver/SSD1305.o
-                0x200000a0                guard variable for SPI::Instance()::instance
- .bss._ZZN14ShiftRegisters8InstanceEvE8instance
-                0x200000a4        0x4 lib/Reporting.o
-                0x200000a4                ShiftRegisters::Instance()::instance
- .bss._ZGVZN14ShiftRegisters8InstanceEvE8instance
-                0x200000a8        0x4 lib/Reporting.o
-                0x200000a8                guard variable for ShiftRegisters::Instance()::instance
  .bss._ZZN9Reporting8InstanceEvE8instance
-                0x200000ac        0x4 main.o
-                0x200000ac                Reporting::Instance()::instance
+                0x20000090        0x4 lib/driver/Encoders.o
+                0x20000090                Reporting::Instance()::instance
  .bss._ZGVZN9Reporting8InstanceEvE8instance
-                0x200000b0        0x4 main.o
-                0x200000b0                guard variable for Reporting::Instance()::instance
+                0x20000094        0x4 lib/driver/Encoders.o
+                0x20000094                guard variable for Reporting::Instance()::instance
+ .bss._ZZN3SPI8InstanceEvE8instance
+                0x20000098       0x10 lib/driver/SSD1305.o
+                0x20000098                SPI::Instance()::instance
+ .bss._ZGVZN3SPI8InstanceEvE8instance
+                0x200000a8        0x4 lib/driver/SSD1305.o
+                0x200000a8                guard variable for SPI::Instance()::instance
+ .bss._ZZN14ShiftRegisters8InstanceEvE8instance
+                0x200000ac        0x4 lib/Reporting.o
+                0x200000ac                ShiftRegisters::Instance()::instance
+ .bss._ZGVZN14ShiftRegisters8InstanceEvE8instance
+                0x200000b0        0x4 lib/Reporting.o
+                0x200000b0                guard variable for ShiftRegisters::Instance()::instance
+ .bss._ZZN8Encoders8InstanceEvE8instance
+                0x200000b4       0x1c main.o
+                0x200000b4                Encoders::Instance()::instance
+ .bss._ZGVZN8Encoders8InstanceEvE8instance
+                0x200000d0        0x4 main.o
+                0x200000d0                guard variable for Encoders::Instance()::instance
  .bss.__malloc_sbrk_start
-                0x200000b4        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
-                0x200000b4                __malloc_sbrk_start
+                0x200000d4        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+                0x200000d4                __malloc_sbrk_start
  .bss.__malloc_free_list
-                0x200000b8        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
-                0x200000b8                __malloc_free_list
+                0x200000d8        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+                0x200000d8                __malloc_free_list
  .bss.heap_end.4246
-                0x200000bc        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+                0x200000dc        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
  *(COMMON)
- COMMON         0x200000c0        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
-                0x200000c0                errno
-                0x200000c4                . = ALIGN (0x4)
-                0x200000c4                _ebss = .
-                0x200000c4                _ezero = .
+ COMMON         0x200000e0        0x4 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+                0x200000e0                errno
+                0x200000e4                . = ALIGN (0x4)
+                0x200000e4                _ebss = .
+                0x200000e4                _ezero = .
 
-.stack          0x200000c4     0x9004 load address 0x00081c28
-                0x200000c8                . = ALIGN (0x8)
- *fill*         0x200000c4        0x4 
-                0x200000c8                _sstack = .
-                0x200090c8                . = (. + STACK_SIZE)
- *fill*         0x200000c8     0x9000 
-                0x200090c8                . = ALIGN (0x8)
-                0x200090c8                _estack = .
+.stack          0x200000e4     0x9004 load address 0x00081f9c
+                0x200000e8                . = ALIGN (0x8)
+ *fill*         0x200000e4        0x4 
+                0x200000e8                _sstack = .
+                0x200090e8                . = (. + STACK_SIZE)
+ *fill*         0x200000e8     0x9000 
+                0x200090e8                . = ALIGN (0x8)
+                0x200090e8                _estack = .
 
-.heap           0x200090c8     0x2000 load address 0x0008ac2c
-                0x200090c8                . = ALIGN (0x8)
-                0x200090c8                _sheap = .
-                0x2000b0c8                . = (. + HEAP_SIZE)
- *fill*         0x200090c8     0x2000 
-                0x2000b0c8                . = ALIGN (0x8)
-                0x2000b0c8                _eheap = .
-                0x2000b0c8                . = ALIGN (0x4)
-                0x2000b0c8                _end = .
+.heap           0x200090e8     0x2000 load address 0x0008afa0
+                0x200090e8                . = ALIGN (0x8)
+                0x200090e8                _sheap = .
+                0x2000b0e8                . = (. + HEAP_SIZE)
+ *fill*         0x200090e8     0x2000 
+                0x2000b0e8                . = ALIGN (0x8)
+                0x2000b0e8                _eheap = .
+                0x2000b0e8                . = ALIGN (0x4)
+                0x2000b0e8                _end = .
                 0x20000000                end = ORIGIN (ram)
                 0x20017fff                _ram_end_ = ((ORIGIN (ram) + 0x18000) - 0x1)
 OUTPUT(OshStep.elf elf32-littlearm)
@@ -1859,69 +1906,71 @@ OUTPUT(OshStep.elf elf32-littlearm)
  .ARM.attributes
                 0x00000116       0x33 lib/display/Bitmap.o
  .ARM.attributes
-                0x00000149       0x33 lib/driver/parameter/SSD1305Params.o
+                0x00000149       0x33 lib/driver/Encoders.o
  .ARM.attributes
-                0x0000017c       0x33 lib/driver/ShiftRegisters.o
+                0x0000017c       0x33 lib/driver/parameter/SSD1305Params.o
  .ARM.attributes
-                0x000001af       0x33 lib/driver/SPI.o
+                0x000001af       0x33 lib/driver/ShiftRegisters.o
  .ARM.attributes
-                0x000001e2       0x33 lib/driver/SSD1305.o
+                0x000001e2       0x33 lib/driver/SPI.o
  .ARM.attributes
-                0x00000215       0x33 lib/Reporting.o
+                0x00000215       0x33 lib/driver/SSD1305.o
  .ARM.attributes
-                0x00000248       0x33 main.o
+                0x00000248       0x33 lib/Reporting.o
  .ARM.attributes
-                0x0000027b       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+                0x0000027b       0x33 main.o
  .ARM.attributes
-                0x000002a8       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+                0x000002ae       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
  .ARM.attributes
-                0x000002d5       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+                0x000002db       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
  .ARM.attributes
-                0x00000302       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
+                0x00000308       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
  .ARM.attributes
-                0x0000032f       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+                0x00000335       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000035c       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+                0x00000362       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
  .ARM.attributes
-                0x00000389       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+                0x0000038f       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
  .ARM.attributes
-                0x000003b6       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+                0x000003bc       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x000003e3       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+                0x000003e9       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000410       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+                0x00000416       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000043d       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+                0x00000443       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000046a       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+                0x00000470       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
  .ARM.attributes
-                0x00000497       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sprintf.o)
+                0x0000049d       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
  .ARM.attributes
-                0x000004c4       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
+                0x000004ca       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x000004f1       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
+                0x000004f7       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
  .ARM.attributes
-                0x0000051e       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memchr-stub.o)
+                0x00000524       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
  .ARM.attributes
-                0x0000054b       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memmove.o)
+                0x00000551       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x00000578       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-reallocr.o)
+                0x0000057e       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memmove.o)
  .ARM.attributes
-                0x000005a5       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+                0x000005ab       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x000005d2       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
+                0x000005d8       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
  .ARM.attributes
-                0x000005ff       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-msizer.o)
+                0x00000605       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
  .ARM.attributes
-                0x0000062c       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+                0x00000632       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-msizer.o)
  .ARM.attributes
-                0x00000659       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+                0x0000065f       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
  .ARM.attributes
-                0x00000686       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+                0x0000068c       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
  .ARM.attributes
-                0x000006b3       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+                0x000006b9       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
  .ARM.attributes
-                0x000006e0       0x1d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
+                0x000006e6       0x2d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000713       0x1d c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m/crtn.o
 
 .comment        0x00000000       0x5b
  .comment       0x00000000       0x5b cmsis/src/startup_sam3xa.o
@@ -1930,6 +1979,7 @@ OUTPUT(OshStep.elf elf32-littlearm)
  .comment       0x00000000       0x5c DueRev1.o
  .comment       0x00000000       0x5c lib/Display.o
  .comment       0x00000000       0x5c lib/display/Bitmap.o
+ .comment       0x00000000       0x5c lib/driver/Encoders.o
  .comment       0x00000000       0x5c lib/driver/parameter/SSD1305Params.o
  .comment       0x00000000       0x5c lib/driver/ShiftRegisters.o
  .comment       0x00000000       0x5c lib/driver/SPI.o
@@ -1937,83 +1987,89 @@ OUTPUT(OshStep.elf elf32-littlearm)
  .comment       0x00000000       0x5c lib/Reporting.o
  .comment       0x00000000       0x5c main.o
 
-.debug_info     0x00000000     0x72ab
+.debug_info     0x00000000     0x8194
  .debug_info    0x00000000      0x6f0 cmsis/src/startup_sam3xa.o
  .debug_info    0x000006f0      0x451 cmsis/src/system_sam3xa.o
- .debug_info    0x00000b41      0xcce DueRev1.o
- .debug_info    0x0000180f     0x11ce lib/Display.o
- .debug_info    0x000029dd      0xb8a lib/display/Bitmap.o
- .debug_info    0x00003567      0x309 lib/driver/parameter/SSD1305Params.o
- .debug_info    0x00003870      0x9f3 lib/driver/ShiftRegisters.o
- .debug_info    0x00004263      0xb1a lib/driver/SPI.o
- .debug_info    0x00004d7d      0xdf5 lib/driver/SSD1305.o
- .debug_info    0x00005b72      0xca7 lib/Reporting.o
- .debug_info    0x00006819      0xa92 main.o
+ .debug_info    0x00000b41      0xd0b DueRev1.o
+ .debug_info    0x0000184c     0x1185 lib/Display.o
+ .debug_info    0x000029d1      0xb8a lib/display/Bitmap.o
+ .debug_info    0x0000355b      0xb04 lib/driver/Encoders.o
+ .debug_info    0x0000405f      0x309 lib/driver/parameter/SSD1305Params.o
+ .debug_info    0x00004368      0x9f3 lib/driver/ShiftRegisters.o
+ .debug_info    0x00004d5b      0xb1a lib/driver/SPI.o
+ .debug_info    0x00005875      0xdf5 lib/driver/SSD1305.o
+ .debug_info    0x0000666a      0xd40 lib/Reporting.o
+ .debug_info    0x000073aa      0xdea main.o
 
-.debug_abbrev   0x00000000     0x1d90
+.debug_abbrev   0x00000000     0x21c0
  .debug_abbrev  0x00000000      0x13f cmsis/src/startup_sam3xa.o
  .debug_abbrev  0x0000013f      0x10d cmsis/src/system_sam3xa.o
  .debug_abbrev  0x0000024c      0x1f4 DueRev1.o
  .debug_abbrev  0x00000440      0x43c lib/Display.o
  .debug_abbrev  0x0000087c      0x2d2 lib/display/Bitmap.o
- .debug_abbrev  0x00000b4e      0x1c5 lib/driver/parameter/SSD1305Params.o
- .debug_abbrev  0x00000d13      0x26a lib/driver/ShiftRegisters.o
- .debug_abbrev  0x00000f7d      0x365 lib/driver/SPI.o
- .debug_abbrev  0x000012e2      0x3b8 lib/driver/SSD1305.o
- .debug_abbrev  0x0000169a      0x3d5 lib/Reporting.o
- .debug_abbrev  0x00001a6f      0x321 main.o
+ .debug_abbrev  0x00000b4e      0x35a lib/driver/Encoders.o
+ .debug_abbrev  0x00000ea8      0x1c5 lib/driver/parameter/SSD1305Params.o
+ .debug_abbrev  0x0000106d      0x26a lib/driver/ShiftRegisters.o
+ .debug_abbrev  0x000012d7      0x365 lib/driver/SPI.o
+ .debug_abbrev  0x0000163c      0x3b8 lib/driver/SSD1305.o
+ .debug_abbrev  0x000019f4      0x3e4 lib/Reporting.o
+ .debug_abbrev  0x00001dd8      0x3e8 main.o
 
-.debug_loc      0x00000000     0x1d61
+.debug_loc      0x00000000     0x21c4
  .debug_loc     0x00000000       0xa1 cmsis/src/startup_sam3xa.o
  .debug_loc     0x000000a1       0x20 cmsis/src/system_sam3xa.o
- .debug_loc     0x000000c1      0x3f5 DueRev1.o
- .debug_loc     0x000004b6      0xa8a lib/Display.o
- .debug_loc     0x00000f40      0x4c0 lib/display/Bitmap.o
- .debug_loc     0x00001400       0xe4 lib/driver/parameter/SSD1305Params.o
- .debug_loc     0x000014e4      0x209 lib/driver/ShiftRegisters.o
- .debug_loc     0x000016ed      0x192 lib/driver/SPI.o
- .debug_loc     0x0000187f      0x2d4 lib/driver/SSD1305.o
- .debug_loc     0x00001b53      0x1a9 lib/Reporting.o
- .debug_loc     0x00001cfc       0x65 main.o
+ .debug_loc     0x000000c1      0x4f1 DueRev1.o
+ .debug_loc     0x000005b2      0xaf7 lib/Display.o
+ .debug_loc     0x000010a9      0x4c0 lib/display/Bitmap.o
+ .debug_loc     0x00001569      0x1ff lib/driver/Encoders.o
+ .debug_loc     0x00001768       0xe4 lib/driver/parameter/SSD1305Params.o
+ .debug_loc     0x0000184c      0x209 lib/driver/ShiftRegisters.o
+ .debug_loc     0x00001a55      0x192 lib/driver/SPI.o
+ .debug_loc     0x00001be7      0x2d4 lib/driver/SSD1305.o
+ .debug_loc     0x00001ebb      0x28c lib/Reporting.o
+ .debug_loc     0x00002147       0x7d main.o
 
-.debug_aranges  0x00000000      0x2f8
+.debug_aranges  0x00000000      0x348
  .debug_aranges
                 0x00000000       0x28 cmsis/src/startup_sam3xa.o
  .debug_aranges
                 0x00000028       0x30 cmsis/src/system_sam3xa.o
  .debug_aranges
-                0x00000058       0x50 DueRev1.o
+                0x00000058       0x58 DueRev1.o
  .debug_aranges
-                0x000000a8       0x68 lib/Display.o
+                0x000000b0       0x68 lib/Display.o
  .debug_aranges
-                0x00000110       0x90 lib/display/Bitmap.o
+                0x00000118       0x90 lib/display/Bitmap.o
  .debug_aranges
-                0x000001a0       0x38 lib/driver/parameter/SSD1305Params.o
+                0x000001a8       0x40 lib/driver/Encoders.o
  .debug_aranges
-                0x000001d8       0x40 lib/driver/ShiftRegisters.o
+                0x000001e8       0x38 lib/driver/parameter/SSD1305Params.o
  .debug_aranges
-                0x00000218       0x40 lib/driver/SPI.o
+                0x00000220       0x40 lib/driver/ShiftRegisters.o
  .debug_aranges
-                0x00000258       0x48 lib/driver/SSD1305.o
+                0x00000260       0x40 lib/driver/SPI.o
  .debug_aranges
-                0x000002a0       0x30 lib/Reporting.o
+                0x000002a0       0x48 lib/driver/SSD1305.o
  .debug_aranges
-                0x000002d0       0x28 main.o
+                0x000002e8       0x38 lib/Reporting.o
+ .debug_aranges
+                0x00000320       0x28 main.o
 
-.debug_ranges   0x00000000      0x400
+.debug_ranges   0x00000000      0x4d0
  .debug_ranges  0x00000000       0x18 cmsis/src/startup_sam3xa.o
  .debug_ranges  0x00000018       0x20 cmsis/src/system_sam3xa.o
- .debug_ranges  0x00000038       0x58 DueRev1.o
- .debug_ranges  0x00000090       0xd0 lib/Display.o
- .debug_ranges  0x00000160       0xb0 lib/display/Bitmap.o
- .debug_ranges  0x00000210       0x28 lib/driver/parameter/SSD1305Params.o
- .debug_ranges  0x00000238       0x88 lib/driver/ShiftRegisters.o
- .debug_ranges  0x000002c0       0x48 lib/driver/SPI.o
- .debug_ranges  0x00000308       0x90 lib/driver/SSD1305.o
- .debug_ranges  0x00000398       0x38 lib/Reporting.o
- .debug_ranges  0x000003d0       0x30 main.o
+ .debug_ranges  0x00000038       0x60 DueRev1.o
+ .debug_ranges  0x00000098       0xe8 lib/Display.o
+ .debug_ranges  0x00000180       0xb0 lib/display/Bitmap.o
+ .debug_ranges  0x00000230       0x78 lib/driver/Encoders.o
+ .debug_ranges  0x000002a8       0x28 lib/driver/parameter/SSD1305Params.o
+ .debug_ranges  0x000002d0       0x88 lib/driver/ShiftRegisters.o
+ .debug_ranges  0x00000358       0x48 lib/driver/SPI.o
+ .debug_ranges  0x000003a0       0x90 lib/driver/SSD1305.o
+ .debug_ranges  0x00000430       0x40 lib/Reporting.o
+ .debug_ranges  0x00000470       0x60 main.o
 
-.debug_macro    0x00000000    0x136b5
+.debug_macro    0x00000000    0x1382c
  .debug_macro   0x00000000      0x332 cmsis/src/startup_sam3xa.o
  .debug_macro   0x00000332      0x86e cmsis/src/startup_sam3xa.o
  .debug_macro   0x00000ba0       0x16 cmsis/src/startup_sam3xa.o
@@ -2115,99 +2171,104 @@ OUTPUT(OshStep.elf elf32-littlearm)
  .debug_macro   0x00011ce6       0x10 lib/Display.o
  .debug_macro   0x00011cf6       0xd7 lib/Display.o
  .debug_macro   0x00011dcd      0x15f lib/display/Bitmap.o
- .debug_macro   0x00011f2c      0x155 lib/driver/parameter/SSD1305Params.o
- .debug_macro   0x00012081      0x15a lib/driver/ShiftRegisters.o
- .debug_macro   0x000121db       0x19 lib/driver/ShiftRegisters.o
- .debug_macro   0x000121f4      0x174 lib/driver/ShiftRegisters.o
- .debug_macro   0x00012368       0x22 lib/driver/ShiftRegisters.o
- .debug_macro   0x0001238a       0xbd lib/driver/ShiftRegisters.o
- .debug_macro   0x00012447       0x10 lib/driver/ShiftRegisters.o
- .debug_macro   0x00012457       0x35 lib/driver/ShiftRegisters.o
- .debug_macro   0x0001248c      0x48e lib/driver/ShiftRegisters.o
- .debug_macro   0x0001291a      0x434 lib/driver/SPI.o
- .debug_macro   0x00012d4e       0x26 lib/driver/SPI.o
- .debug_macro   0x00012d74      0x155 lib/driver/SSD1305.o
- .debug_macro   0x00012ec9      0x1bb lib/Reporting.o
- .debug_macro   0x00013084       0x1c lib/Reporting.o
- .debug_macro   0x000130a0       0x10 lib/Reporting.o
- .debug_macro   0x000130b0       0x10 lib/Reporting.o
- .debug_macro   0x000130c0       0x16 lib/Reporting.o
- .debug_macro   0x000130d6      0x14a lib/Reporting.o
- .debug_macro   0x00013220      0x495 main.o
+ .debug_macro   0x00011f2c      0x177 lib/driver/Encoders.o
+ .debug_macro   0x000120a3       0x1c lib/driver/Encoders.o
+ .debug_macro   0x000120bf       0x35 lib/driver/Encoders.o
+ .debug_macro   0x000120f4       0x10 lib/driver/Encoders.o
+ .debug_macro   0x00012104       0x10 lib/driver/Encoders.o
+ .debug_macro   0x00012114       0x22 lib/driver/Encoders.o
+ .debug_macro   0x00012136       0xbd lib/driver/Encoders.o
+ .debug_macro   0x000121f3       0x16 lib/driver/Encoders.o
+ .debug_macro   0x00012209      0x14a lib/driver/Encoders.o
+ .debug_macro   0x00012353      0x155 lib/driver/parameter/SSD1305Params.o
+ .debug_macro   0x000124a8      0x15a lib/driver/ShiftRegisters.o
+ .debug_macro   0x00012602       0x19 lib/driver/ShiftRegisters.o
+ .debug_macro   0x0001261b      0x174 lib/driver/ShiftRegisters.o
+ .debug_macro   0x0001278f       0x10 lib/driver/ShiftRegisters.o
+ .debug_macro   0x0001279f      0x48e lib/driver/ShiftRegisters.o
+ .debug_macro   0x00012c2d      0x434 lib/driver/SPI.o
+ .debug_macro   0x00013061       0x26 lib/driver/SPI.o
+ .debug_macro   0x00013087      0x155 lib/driver/SSD1305.o
+ .debug_macro   0x000131dc      0x1bb lib/Reporting.o
+ .debug_macro   0x00013397      0x495 main.o
 
-.debug_line     0x00000000     0x4bfe
+.debug_line     0x00000000     0x50f1
  .debug_line    0x00000000      0x79e cmsis/src/startup_sam3xa.o
  .debug_line    0x0000079e      0x7ec cmsis/src/system_sam3xa.o
- .debug_line    0x00000f8a      0x89f DueRev1.o
- .debug_line    0x00001829      0x6a2 lib/Display.o
- .debug_line    0x00001ecb      0x646 lib/display/Bitmap.o
- .debug_line    0x00002511      0x491 lib/driver/parameter/SSD1305Params.o
- .debug_line    0x000029a2      0x418 lib/driver/ShiftRegisters.o
- .debug_line    0x00002dba      0x9a9 lib/driver/SPI.o
- .debug_line    0x00003763      0x50e lib/driver/SSD1305.o
- .debug_line    0x00003c71      0x540 lib/Reporting.o
- .debug_line    0x000041b1      0xa4d main.o
+ .debug_line    0x00000f8a      0x8be DueRev1.o
+ .debug_line    0x00001848      0x6a9 lib/Display.o
+ .debug_line    0x00001ef1      0x646 lib/display/Bitmap.o
+ .debug_line    0x00002537      0x48b lib/driver/Encoders.o
+ .debug_line    0x000029c2      0x491 lib/driver/parameter/SSD1305Params.o
+ .debug_line    0x00002e53      0x418 lib/driver/ShiftRegisters.o
+ .debug_line    0x0000326b      0x9a9 lib/driver/SPI.o
+ .debug_line    0x00003c14      0x50e lib/driver/SSD1305.o
+ .debug_line    0x00004122      0x559 lib/Reporting.o
+ .debug_line    0x0000467b      0xa76 main.o
 
-.debug_str      0x00000000    0x56b2b
+.debug_str      0x00000000    0x56cd7
  .debug_str     0x00000000    0x4e3fe cmsis/src/startup_sam3xa.o
                               0x4e5a5 (size before relaxing)
  .debug_str     0x0004e3fe      0x2d2 cmsis/src/system_sam3xa.o
                               0x4e36f (size before relaxing)
- .debug_str     0x0004e6d0     0x441f DueRev1.o
-                              0x5245f (size before relaxing)
- .debug_str     0x00052aef     0x22b9 lib/Display.o
-                               0x541a (size before relaxing)
- .debug_str     0x00054da8       0x8c lib/display/Bitmap.o
+ .debug_str     0x0004e6d0     0x4443 DueRev1.o
+                              0x52483 (size before relaxing)
+ .debug_str     0x00052b13     0x2268 lib/Display.o
+                               0x53c9 (size before relaxing)
+ .debug_str     0x00054d7b       0x8c lib/display/Bitmap.o
                                0x4adf (size before relaxing)
- .debug_str     0x00054e34       0x64 lib/driver/parameter/SSD1305Params.o
+ .debug_str     0x00054e07      0xcf7 lib/driver/Encoders.o
+                               0x55c1 (size before relaxing)
+ .debug_str     0x00055afe       0x64 lib/driver/parameter/SSD1305Params.o
                                0x4932 (size before relaxing)
- .debug_str     0x00054e98     0x135b lib/driver/ShiftRegisters.o
+ .debug_str     0x00055b62      0xf3a lib/driver/ShiftRegisters.o
                                0x5bfb (size before relaxing)
- .debug_str     0x000561f3      0x149 lib/driver/SPI.o
+ .debug_str     0x00056a9c      0x149 lib/driver/SPI.o
                               0x53795 (size before relaxing)
- .debug_str     0x0005633c       0xaf lib/driver/SSD1305.o
+ .debug_str     0x00056be5       0xaf lib/driver/SSD1305.o
                                0x4b0e (size before relaxing)
- .debug_str     0x000563eb      0x720 lib/Reporting.o
-                               0x585f (size before relaxing)
- .debug_str     0x00056b0b       0x20 main.o
-                              0x539c2 (size before relaxing)
+ .debug_str     0x00056c94       0x30 lib/Reporting.o
+                               0x585a (size before relaxing)
+ .debug_str     0x00056cc4       0x13 main.o
+                              0x53ace (size before relaxing)
 
-.debug_frame    0x00000000      0xba0
+.debug_frame    0x00000000      0xc4c
  .debug_frame   0x00000000       0x38 cmsis/src/startup_sam3xa.o
  .debug_frame   0x00000038       0x48 cmsis/src/system_sam3xa.o
- .debug_frame   0x00000080       0x88 DueRev1.o
- .debug_frame   0x00000108      0x14c lib/Display.o
- .debug_frame   0x00000254      0x150 lib/display/Bitmap.o
- .debug_frame   0x000003a4       0x58 lib/driver/parameter/SSD1305Params.o
- .debug_frame   0x000003fc       0x78 lib/driver/ShiftRegisters.o
- .debug_frame   0x00000474       0x78 lib/driver/SPI.o
- .debug_frame   0x000004ec       0xa4 lib/driver/SSD1305.o
- .debug_frame   0x00000590       0x68 lib/Reporting.o
- .debug_frame   0x000005f8       0x48 main.o
- .debug_frame   0x00000640       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
- .debug_frame   0x00000660       0x48 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
- .debug_frame   0x000006a8       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
- .debug_frame   0x000006d0       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
- .debug_frame   0x000006fc       0x30 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
- .debug_frame   0x0000072c       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00000754       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
- .debug_frame   0x00000780       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
- .debug_frame   0x000007ac       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
- .debug_frame   0x000007d8       0xc0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
- .debug_frame   0x00000898       0x3c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
- .debug_frame   0x000008d4       0x58 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sprintf.o)
- .debug_frame   0x0000092c       0x88 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
- .debug_frame   0x000009b4       0x60 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
- .debug_frame   0x00000a14       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memchr-stub.o)
- .debug_frame   0x00000a3c       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memmove.o)
- .debug_frame   0x00000a68       0x30 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00000a98       0x48 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
- .debug_frame   0x00000ae0       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
- .debug_frame   0x00000b00       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-msizer.o)
- .debug_frame   0x00000b20       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
- .debug_frame   0x00000b40       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
- .debug_frame   0x00000b60       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
- .debug_frame   0x00000b80       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
+ .debug_frame   0x00000080       0x98 DueRev1.o
+ .debug_frame   0x00000118      0x14c lib/Display.o
+ .debug_frame   0x00000264      0x150 lib/display/Bitmap.o
+ .debug_frame   0x000003b4       0x78 lib/driver/Encoders.o
+ .debug_frame   0x0000042c       0x58 lib/driver/parameter/SSD1305Params.o
+ .debug_frame   0x00000484       0x78 lib/driver/ShiftRegisters.o
+ .debug_frame   0x000004fc       0x78 lib/driver/SPI.o
+ .debug_frame   0x00000574       0xa4 lib/driver/SSD1305.o
+ .debug_frame   0x00000618       0x88 lib/Reporting.o
+ .debug_frame   0x000006a0       0x4c main.o
+ .debug_frame   0x000006ec       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(del_op.o)
+ .debug_frame   0x0000070c       0x48 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a(guard.o)
+ .debug_frame   0x00000754       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-abort.o)
+ .debug_frame   0x0000077c       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-init.o)
+ .debug_frame   0x000007a8       0x30 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-malloc.o)
+ .debug_frame   0x000007d8       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000800       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000082c       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000858       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000884       0xc0 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signal.o)
+ .debug_frame   0x00000944       0x3c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-signalr.o)
+ .debug_frame   0x00000980       0x58 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-sprintf.o)
+ .debug_frame   0x000009d8       0x88 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-svfprintf.o)
+ .debug_frame   0x00000a60       0x60 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-vfprintf_i.o)
+ .debug_frame   0x00000ac0       0x28 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00000ae8       0x2c c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-memmove.o)
+ .debug_frame   0x00000b14       0x30 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000b44       0x48 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-reent.o)
+ .debug_frame   0x00000b8c       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-strlen.o)
+ .debug_frame   0x00000bac       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000bcc       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)
+ .debug_frame   0x00000bec       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(kill.o)
+ .debug_frame   0x00000c0c       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(sbrk.o)
+ .debug_frame   0x00000c2c       0x20 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(_exit.o)
 
 .stab           0x00000000       0x3c
  .stab          0x00000000       0x24 c:/program files (x86)/atmel/atmel toolchain/arm gcc/native/4.8.1443/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libnosys.a(getpid.o)

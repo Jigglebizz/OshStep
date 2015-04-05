@@ -14,7 +14,7 @@
 #include <stdlib.h>
 
 enum VisualStateMethod { LIGHTS, DISPLAY};
-enum Priority { d};
+enum Priority { PRIORITY_DEBUG, PRIORITY_PANIC};
 
 class Reporting {
   private:
@@ -33,6 +33,7 @@ class Reporting {
         return instance;
     };
     void reportCode(Priority, VisualStateMethod, uint32_t);
+    void reportText(Priority, const char*);
     void clearReport();
 };
 

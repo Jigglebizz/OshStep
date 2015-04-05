@@ -42,18 +42,27 @@
       case INPUT:
         switch (p) {
           case A:
+            // Enable clock if it isn't enabled
+            if (~(PMC->PMC_PCSR0 >> ID_PIOA) & 0x1)
+                PMC->PMC_PCER0 = 1<<ID_PIOA;
             PIOA->PIO_PER=1<<pin;
             PIOA->PIO_ODR=1<<pin;
             break;
           case B:
+            if (~(PMC->PMC_PCSR0 >> ID_PIOB) & 0x1)
+                PMC->PMC_PCER0 = 1<<ID_PIOB;
             PIOB->PIO_PER=1<<pin;
             PIOB->PIO_ODR=1<<pin;
             break;
           case C:
+            if (~(PMC->PMC_PCSR0 >> ID_PIOC) & 0x1)
+                PMC->PMC_PCER0 = 1<<ID_PIOC;
             PIOC->PIO_PER=1<<pin;
             PIOC->PIO_ODR=1<<pin;
             break;
           case D:
+            if (~(PMC->PMC_PCSR0 >> ID_PIOD) & 0x1)
+                PMC->PMC_PCER0 = 1<<ID_PIOD;
             PIOD->PIO_PER=1<<pin;
             PIOD->PIO_ODR=1<<pin;
             break;
@@ -203,6 +212,20 @@
         return (PIOC->PIO_ODSR >> pin) & 0x1;
       case D:
         return (PIOD->PIO_ODSR >> pin) & 0x1;
+    }
+    return -1;
+ }
+
+ int pinReadInput(Port p, int pin) {
+    switch (p) {
+      case A:
+        return (PIOA->PIO_PDSR >> pin) & 0x1;
+      case B:
+        return (PIOB->PIO_PDSR >> pin) & 0x1;
+      case C:
+        return (PIOC->PIO_PDSR >> pin) & 0x1;
+      case D:
+        return (PIOD->PIO_PDSR >> pin) & 0x1;
     }
     return -1;
  }
