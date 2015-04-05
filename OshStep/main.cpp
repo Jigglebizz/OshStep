@@ -29,7 +29,7 @@ int main(void)
     /* Initialize the SAM system */
     SystemInit();
 
-    Reporting::Instance().reportCode(d, LIGHTS, 0xDEADBEEF);
+    Reporting::Instance().reportCode(PRIORITY_DEBUG, LIGHTS, 0xDEADBEEF);
 
     //SSD1305Params ssdp = SSD1305Params();
     //Reporting::Instance().reportCode(d, LIGHTS, (uint32_t)ssdp.buffer);
@@ -44,21 +44,27 @@ int main(void)
     Display disp = Display();
     //Bitmap b = Bitmap(edit_note);
     //disp.drawBitmap(b);
-    disp.drawFilledRectangle(0, 0, 31, 31);
+    //disp.drawFilledRectangle(0, 0, 31, 31);
     //disp.drawLine(0, 0, 0, 31);
     //disp.drawPixel(0, 0);
     //disp.drawPixel(127, 0);
     //disp.drawPixel(127, 31);
     //disp.drawPixel(0, 31);
-    //disp.drawText(0, 0, LARGE_FONT, "123456789!");
+    disp.drawText(0, 0, SMALL_FONT, "hello\nworld!");
     disp.paint();
 
-    Reporting::Instance().reportCode(d, LIGHTS, 0xAAAA5555);
+    Encoders::Instance().open(NULL);
+
+    Reporting::Instance().reportCode(PRIORITY_DEBUG, LIGHTS, 0xAAAA5555);
     
 
-
+    pinSetMode(A, 8, OUTPUT);
+    pinDisablePullup(A, 8);
     while (1) 
     {
+        pinSetOutput(A, 8, HIGH);
+        pinSetOutput(A, 8, LOW);
+
         //REG_PIOD_SODR |= pin_11_mask;
         //int x;
         //for (int i = 0; i < 5000; i++) {
