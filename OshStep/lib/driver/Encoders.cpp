@@ -30,56 +30,14 @@ int Encoders::open(void* p) {
         attachInterrupt(aPorts[i], aPins[i], &__encoders_isr);
     }
 
-    
-    /* Construct the state wheel */
-    /*
-    EncoderState *a = (EncoderState*)malloc(sizeof(EncoderState));
-    EncoderState *b = (EncoderState*)malloc(sizeof(EncoderState));
-    EncoderState *c = (EncoderState*)malloc(sizeof(EncoderState));
-    EncoderState *d = (EncoderState*)malloc(sizeof(EncoderState));
-
-    a->mask = 0x0;
-    b->mask = 0x1;
-    c->mask = 0x3;
-    d->mask = 0x2;
-
-    a->next = b;
-    a->prev = d;
-    b->next = c;
-    b->prev = a;
-    c->next = d;
-    c->prev = b;
-    d->next = a;
-    d->prev = c;
-    */
     /* Read values, assign states */
     for (int i = 0; i < 4; i++) {
         // States are in the form of 0b000000ab
         states[i] = (pinReadInput(aPorts[i], aPins[i]) << 1) | pinReadInput(bPorts[i], bPins[i]);
-        /*
-        // Cycle through the state wheel
-        EncoderState *e = a;
-        states[i] = NULL;
-        do {
-            if (state == e->mask) {
-                states[i] = e;
-                break;
-            }
-            e = e->next;
-        } while (e != a);
 
-        // Error checking
-        if (states[i] == NULL) {
-            char panic_text[25];
-            sprintf(panic_text, "Invalid state encoder %d", i);
-            Reporting::Instance().reportText(PRIORITY_PANIC, panic_text);
-        }
-        */
         // And set encoder status
         status.relative_position[i] = 0;
     }
-
-
 
     return 0;
 }
