@@ -38,5 +38,7 @@ The OSHStep is entirely open-source - The hardware design files are created in D
 * Controller resets periodically
 * Board is currently left-handed
 * System clock is only running at 4Mhz
+
 ### Medium Priority
 * Encoder movement feels bad/buggy
+* Possible power considerations on board
