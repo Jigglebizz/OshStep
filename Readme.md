@@ -13,6 +13,7 @@ The OSHStep is entirely open-source - The hardware design files are created in D
 
 ## Features
 ### Implemented
+* Encoder Drivers
 * OLED Display Integration
 * Graphics Library for Display
   * Bitmap Support
@@ -24,10 +25,18 @@ The OSHStep is entirely open-source - The hardware design files are created in D
 * Support for 24 RG indication LED's
 
 ### TODO
+* EEPROM support in board design
 * MIDI/UART Drivers
-* Encoder Drivers
 * Touch-Sensor Drivers
 * Pattern/Song Data Structure
 * EEPROM Storage
 * Lots of front-end work
 * Sequencer mechanism
+
+## Bugs
+### High Priority
+* Controller resets periodically
+* Board is currently left-handed
+* System clock is only running at 4Mhz
+### Medium Priority
+* Encoder movement feels bad/buggy
