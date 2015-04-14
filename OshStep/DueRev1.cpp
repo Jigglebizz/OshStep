@@ -255,6 +255,7 @@ void attachInterrupt(Port p, int pin, void(*isr)(Port, int)) {
       case B:
         isr_bank = &__isr_b;
         if (!(__isr_enabled_mask & __ISR_ENABLED_B)) {
+            __isr_enabled_mask |= __ISR_ENABLED_B;
             NVIC_EnableIRQ(PIOB_IRQn);  
         }
         break;

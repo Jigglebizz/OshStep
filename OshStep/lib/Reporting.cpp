@@ -16,10 +16,10 @@ void Reporting::reportCode(Priority p, VisualStateMethod method, uint32_t code) 
     if (method == LIGHTS) {
         if (p == PRIORITY_DEBUG) {
           #ifdef DEBUG
-            srwp->stepLights = code;
-            srwp->functionLights = 0xFFFF;
+            srwp.stepLights = code;
+            srwp.functionLights = 0xFFFF;
             ShiftRegisters::Instance().open(NULL);
-            ShiftRegisters::Instance().write(srwp);
+            ShiftRegisters::Instance().write(&srwp);
             ShiftRegisters::Instance().close();
           #endif
         }
@@ -53,9 +53,9 @@ void Reporting::reportText(Priority p, const char* text) {
 }
 
 void Reporting::clearReport() {
-    srwp->stepLights = 0;
-    srwp->functionLights = 0;
+    srwp.stepLights = 0;
+    srwp.functionLights = 0;
     ShiftRegisters::Instance().open(NULL);
-    ShiftRegisters::Instance().write(srwp);
+    ShiftRegisters::Instance().write(&srwp);
     ShiftRegisters::Instance().close();
 }

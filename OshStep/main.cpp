@@ -10,14 +10,9 @@
 
 #include <stdlib.h>
 
-#include "lib/driver/ShiftRegisters.h"
-#include "lib/driver/SSD1305.h"
-#include "lib/driver/parameter/SSD1305Params.h"
 #include "lib/Reporting.h"
 #include "lib/driver/Encoders.h"
 #include "lib/Display.h"
-#include "lib/display/Bitmap.h"
-#include "assets/images.h"
 
 /**
  * \brief Application entry point.

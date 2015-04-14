@@ -90,17 +90,17 @@ main.d main.o: .././main.cpp .././system.h .././DueRev1.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h \
- .././lib/driver/ShiftRegisters.h .././lib/driver/Driver.h \
- .././lib/driver/../../system.h .././lib/driver/SSD1305.h \
- .././lib/driver/parameter/SSD1305Params.h \
- .././lib/driver/parameter/../SSD1305.h .././lib/driver/SPI.h \
- .././lib/driver/../Reporting.h \
- .././lib/driver/../driver/ShiftRegisters.h \
- .././lib/driver/parameter/SSD1305Params.h .././lib/Reporting.h \
+ .././lib/Reporting.h .././lib/driver/ShiftRegisters.h \
+ .././lib/driver/Driver.h .././lib/driver/../../system.h \
  .././lib/driver/Encoders.h .././lib/Display.h .././lib/display/Bitmap.h \
  .././lib/display/../driver/parameter/SSD1305Params.h \
- .././lib/driver/parameter/SSD1305Params.h .././lib/display/Bitmap.h \
- .././assets/images.h
+ .././lib/display/../driver/parameter/../SSD1305.h \
+ .././lib/display/../driver/parameter/../Driver.h \
+ .././lib/display/../driver/parameter/../parameter/SSD1305Params.h \
+ .././lib/display/../driver/parameter/../../../system.h \
+ .././lib/display/../driver/parameter/../SPI.h \
+ .././lib/display/../driver/parameter/../../Reporting.h \
+ .././lib/driver/parameter/SSD1305Params.h
 
 .././system.h:
 
@@ -288,27 +288,13 @@ c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu
 
 c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h:
 
+.././lib/Reporting.h:
+
 .././lib/driver/ShiftRegisters.h:
 
 .././lib/driver/Driver.h:
 
 .././lib/driver/../../system.h:
-
-.././lib/driver/SSD1305.h:
-
-.././lib/driver/parameter/SSD1305Params.h:
-
-.././lib/driver/parameter/../SSD1305.h:
-
-.././lib/driver/SPI.h:
-
-.././lib/driver/../Reporting.h:
-
-.././lib/driver/../driver/ShiftRegisters.h:
-
-.././lib/driver/parameter/SSD1305Params.h:
-
-.././lib/Reporting.h:
 
 .././lib/driver/Encoders.h:
 
@@ -318,8 +304,16 @@ c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu
 
 .././lib/display/../driver/parameter/SSD1305Params.h:
 
+.././lib/display/../driver/parameter/../SSD1305.h:
+
+.././lib/display/../driver/parameter/../Driver.h:
+
+.././lib/display/../driver/parameter/../parameter/SSD1305Params.h:
+
+.././lib/display/../driver/parameter/../../../system.h:
+
+.././lib/display/../driver/parameter/../SPI.h:
+
+.././lib/display/../driver/parameter/../../Reporting.h:
+
 .././lib/driver/parameter/SSD1305Params.h:
-
-.././lib/display/Bitmap.h:
-
-.././assets/images.h:

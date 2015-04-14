@@ -18,11 +18,9 @@ enum Priority { PRIORITY_DEBUG, PRIORITY_PANIC};
 
 class Reporting {
   private:
-    Reporting() {
-        srwp = (ShiftRegistersWriteParams*)malloc(sizeof(ShiftRegistersWriteParams));
-    };
+    Reporting() {};
 
-    ShiftRegistersWriteParams *srwp;
+    ShiftRegistersWriteParams srwp;
 
     // Make this a singleton
     Reporting(Reporting const&);
