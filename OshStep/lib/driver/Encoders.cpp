@@ -26,9 +26,13 @@ int Encoders::open(void* p) {
         // Enable pull-ups
         pinEnablePullup(aPorts[i], aPins[i]);
         pinEnablePullup(bPorts[i], bPins[i]);
+
+        attachInterrupt(aPorts[i], aPins[i], &__encoders_isr);
     }
 
+    
     /* Construct the state wheel */
+    /*
     EncoderState *a = (EncoderState*)malloc(sizeof(EncoderState));
     EncoderState *b = (EncoderState*)malloc(sizeof(EncoderState));
     EncoderState *c = (EncoderState*)malloc(sizeof(EncoderState));
@@ -47,12 +51,12 @@ int Encoders::open(void* p) {
     c->prev = b;
     d->next = a;
     d->prev = c;
-
+    */
     /* Read values, assign states */
     for (int i = 0; i < 4; i++) {
         // States are in the form of 0b000000ab
-        uint8_t state = (pinReadInput(aPorts[i], aPins[i]) << 1) | pinReadInput(bPorts[i], bPins[i]);
-        
+        states[i] = (pinReadInput(aPorts[i], aPins[i]) << 1) | pinReadInput(bPorts[i], bPins[i]);
+        /*
         // Cycle through the state wheel
         EncoderState *e = a;
         states[i] = NULL;
@@ -70,10 +74,13 @@ int Encoders::open(void* p) {
             sprintf(panic_text, "Invalid state encoder %d", i);
             Reporting::Instance().reportText(PRIORITY_PANIC, panic_text);
         }
-
+        */
         // And set encoder status
         status.relative_position[i] = 0;
     }
+
+
+
     return 0;
 }
 
@@ -86,9 +93,31 @@ int Encoders::write(void* p) {
 }
 
 void *Encoders::read() {
-    return (void*)0;
+    for (int i = 0; i < 4; i++) {
+        readStatus.relative_position[i] = status.relative_position[i];
+        status.relative_position[i] = 0;
+    }
+    
+    return (void*)&readStatus;
 }
 
  void *Encoders::ioctl(int ioctl_t, void *params) {
     return (void*)0;
+ }
+
+ void Encoders::interrupt_callback(Port p, int pin) {
+    for (int i = 0; i < 4; i++) {
+        if (p == aPorts[i] && pin == aPins[i]) {
+            if (pinReadInput(p, pin) == pinReadInput(bPorts[i], bPins[i])) {
+                status.relative_position[i] ++;
+            } else {
+                status.relative_position[i] --;
+            }
+            break;
+        }
+    }
+ }
+
+ void __encoders_isr(Port p, int pin) {
+    Encoders::Instance().interrupt_callback(p, pin);
  }

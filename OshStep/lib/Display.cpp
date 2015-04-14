@@ -58,7 +58,7 @@ void Display::drawText( uint8_t x, uint8_t y, Font f, const char* str) {
         // If this is a newline
         if (str[i] == 10) { 
             x = x_origin;
-            y += glyph_h;
+            y += glyph_h + 1;
         } else {
             bmp.setRectangle(   (glyphPos * glyph_w) % glyph_map_w,
             (((glyphPos * glyph_w) / glyph_map_w) * glyph_h),
@@ -148,6 +148,10 @@ void Display::drawFilledRectangle(int x0, int y0, int x1, int y1) {
 
 void Display::drawPixel(int x, int y) {
     ssdp.setPixel(x, y, PIXEL_ON);
+}
+
+void Display::clear() {
+    ssdp.clear(PIXEL_OFF);
 }
 
 void Display::paint() {

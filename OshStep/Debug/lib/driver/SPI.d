@@ -1,12 +1,12 @@
 lib/driver/SPI.d lib/driver/SPI.o: ../lib/driver/SPI.cpp \
  ../lib/driver/SPI.h ../lib/driver/Driver.h ../lib/driver/../../system.h \
- ../lib/driver/../../DueRev1.h ../lib/driver/../Reporting.h \
- ../lib/driver/../driver/ShiftRegisters.h \
- ../lib/driver/../driver/Driver.h ../lib/driver/../driver/../../system.h \
+ ../lib/driver/../../DueRev1.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\lib\gcc\arm-none-eabi\4.8.4\include\stdint.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h \
+ ../lib/driver/../Reporting.h ../lib/driver/../driver/ShiftRegisters.h \
+ ../lib/driver/../driver/Driver.h ../lib/driver/../driver/../../system.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
@@ -104,14 +104,6 @@ lib/driver/SPI.d lib/driver/SPI.o: ../lib/driver/SPI.cpp \
 
 ../lib/driver/../../DueRev1.h:
 
-../lib/driver/../Reporting.h:
-
-../lib/driver/../driver/ShiftRegisters.h:
-
-../lib/driver/../driver/Driver.h:
-
-../lib/driver/../driver/../../system.h:
-
 c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\lib\gcc\arm-none-eabi\4.8.4\include\stdint.h:
 
 c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\stdint.h:
@@ -119,6 +111,14 @@ c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu
 c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h:
 
 c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h:
+
+../lib/driver/../Reporting.h:
+
+../lib/driver/../driver/ShiftRegisters.h:
+
+../lib/driver/../driver/Driver.h:
+
+../lib/driver/../driver/../../system.h:
 
 c:\program\ files\ (x86)\atmel\atmel\ toolchain\arm\ gcc\native\4.8.1443\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h:
 

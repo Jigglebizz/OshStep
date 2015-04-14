@@ -29,6 +29,7 @@ class Display {
     //void drawCircle(int, int, int);
     //void drawFilledCircle(int, int, int);
     void drawPixel(int, int);
+    void clear();
     void paint();
 };
 

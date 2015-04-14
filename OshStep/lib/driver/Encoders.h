@@ -16,12 +16,13 @@
 typedef struct EncodersStatus {
     int16_t relative_position[4];
 } EncodersStatus;
-
+/*
 typedef struct encoderState {
     uint8_t mask;
     struct encoderState *next;
     struct encoderState *prev;
 } EncoderState;
+*/
 
 class Encoders : Driver {
   private:
@@ -33,7 +34,9 @@ class Encoders : Driver {
 
     // Volatile, because these will change during interrupts
     volatile EncodersStatus status;
-    volatile EncoderState *states[4];
+    EncodersStatus readStatus;
+    volatile uint8_t states[4];
+    //volatile EncoderState *states[4];
 
     // Define as a singleton
     Encoders() {};
@@ -50,7 +53,9 @@ class Encoders : Driver {
     int     write(void*);
     void*   read();
     void*   ioctl(int, void*);
+    void    interrupt_callback(Port, int);
 };
 
+void __encoders_isr(Port, int);
 
 #endif /* ENCODERS_H_ */
